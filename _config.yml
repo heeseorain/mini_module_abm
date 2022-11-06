@@ -20,8 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Course material for RM03 in lent term, 2020
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: haifengniu
-github_username:  hn303
+github_username:  heeseorain
 permalink: :title
 
 # Enable or disable the site search
@@ -40,7 +39,7 @@ repository: ""
 remote_theme: pmarsceill/just-the-docs
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020 Haifeng Niu."
+footer_content: "Copyright &copy; 2020 Heeseo Rain Kwon."
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
