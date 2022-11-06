@@ -1,8 +1,70 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-url: https://just-the-docs.github.io
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CamLandEc-RM03
+logo: #
+email: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  Course material for RM03 in lent term, 2020
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: haifengniu
+github_username:  hn303
+permalink: :title
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Enable or disable the site search
+search_enabled: True
+
+# Set the search token separator for hyphenated-word search:
+# search_tokenizer_separator: /[\s/]+/
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+repository: ""
+
+# theme: jekyll-theme-minimal
+# remote_theme: YoussefRaafatNasry/portfolYOU
+remote_theme: pmarsceill/just-the-docs
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2020 Haifeng Niu."
+
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: nil
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: UA-155149465-2
+
+# Build settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+# A list of the pages to display in the navigation bar
+header_pages:
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+
+
+show_excerpts: true
+
+highlighter: rouge
