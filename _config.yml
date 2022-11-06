@@ -41,8 +41,8 @@ remote_theme: pmarsceill/just-the-docs
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2020 Heeseo Rain Kwon."
 
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: nil
+# Color scheme currently only supports "dark" or light (default)
+color_scheme: light
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
