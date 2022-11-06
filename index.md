@@ -31,7 +31,7 @@ Meterials of supervision could be found below.
 ### Contributors
 This repo is created by Haifeng Niu, Heeseo Rain Kwon, Paul Scherer and Yiqiao Chen. This page contains links for Supervision 2 materials prepared by Heeseo Rain Kwon, where some of the content draws from the research conducted in collaboration with Paul Scherer:
 - Kwon, H.R., Silva E.A., and Scherer, P.M. (Forthcoming) Linking Types of Behavior with Theories, Rules and Research Methods for a Cellular Automata-Agent Based Model (CA-ABM) Building on SLEUTH. To be submitted to _Journal of Geographical Systems_;
-- Kwon, H.R., Silva, E.A., Scherer, P.M., and Clarke, K.C. (Forthcoming) Implementing SLEUTH on NetLogo and Adding an A-spatial Layer based on Survey Data. TO be submitted to _Proceedings of the Institution of Civil Engineers: Urban Design and Planning_; and
+- Kwon, H.R., Silva, E.A., Scherer, P.M., and Clarke, K.C. (Forthcoming) Implementing SLEUTH on NetLogo and Adding an A-spatial Layer based on Survey Data. To be submitted to _Proceedings of the Institution of Civil Engineers: Urban Design and Planning_; and
 - Kwon, H.R., Silva, E.A., Scherer, P.M., and Clarke, K.C. (Forthcoming) Extending SLEUTH into a CA/ABM-based Land Use-Transport Interaction Model with Behavioral Theories and Rules: using Data from Sejong, Korea. To be submitted to _Computers, Environment and Urban Systems_.
 
 ### License
