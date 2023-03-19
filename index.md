@@ -7,15 +7,15 @@ nav_order: 1
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 
-# RM03: Spatial Analysis and Modelling
-Welcome to 2020 lent term module RM03 : Spatial Analysis and Modelling.  
-Meterials of supervision could be found below.
+# Mini-module 2023: Applying Agent-Based Modelling and Behavioural Theories in Urban Planning and Development
+Welcome to the 2023 mini-module on ABM and behavioural theories.  
+Teaching materials can be found below.
 
 ## Course outline
 
 |Lectures|Topic|Lecturers|
 |---|---|---:|
-|Lecture 1|Introduction: Concepts, theory and practice in spatial analysis using GIS and data science |(Elisabete A. Silva)|
+|Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM |(Dr H R Kwon)|
 |Lecture 2|Data types of data, data collection and processing: from census to new live data harvesting in a digital age of big data |(Elisabete A. Silva)|
 |Lecture 3|GIS and Data Processing: vector/raster/image data sets |(Elisabete A. Silva)|
 |Lecture 4|Spatial metrics & analysis: static and dynamic environments |(Elisabete A. Silva & José Reis) |
