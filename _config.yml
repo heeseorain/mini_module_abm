@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CamLandEc-RM03
+title:mini_module_abm
 logo: #
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Course material for RM03 in lent term, 2020
+  Course material for a mini-module "Applying Agent-Based Modelling and Behavioural Theories in Urban Planning and Development" developed by Dr Heeseo Rain Kwon.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  heeseorain
@@ -39,7 +39,7 @@ repository: ""
 remote_theme: pmarsceill/just-the-docs
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020 Heeseo Rain Kwon."
+footer_content: "Copyright &copy; 2023 Heeseo Rain Kwon."
 
 # Color scheme currently only supports "dark" or light (default)
 color_scheme: light
