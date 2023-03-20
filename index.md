@@ -16,7 +16,7 @@ Teaching materials can be found below.
 |Lecture|Topic|Lecturer and demonstrator|
 |---|---|---:|
 |Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)|(Dr Heeseo Rain Kwon)| 
-|Software exercise 1|Introduction to NetLogo, game of life, wolf-sheep-grass predation model, urban growth model, and preparing spatial input data on QGIS [[Exercises]](./___.md)|(Dr Heeseo Rain Kwon, Melissa Barrientos)| 
+|Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on GIS for an urban growth model [[Exercises]](./___.md)|(Dr Heeseo Rain Kwon, Melissa Barrientos)| 
 |Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|(Dr Heeseo Rain Kwon)|
 |Software exercise 2|Language change model [[Exercises]](./___.md)|(Dr Heeseo Rain Kwon, Melissa Barrientos)| 
 |Lecture 3|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|(Dr Heeseo Rain Kwon)|
