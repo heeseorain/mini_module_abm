@@ -12,4 +12,5 @@ search_exclude: true
 # Exercise 1
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
-Note: All you need to have is NetLogo installed in your laptop. If you haven't done so already, please download and install `NetLogo (6.1.1)` according to your platform. We recommend downloading `Windows (64-bit)`, `Mac OS X`, or `Linux (64-bit)`: [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.1.1/){:target="_blank"}.
+Note: Please download and install `NetLogo (6.2.1)` according to your platform. 
+I recommend downloading `Windows (64-bit)`, `Mac OS X`, or `Linux (64-bit)`: [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.2.1/){:target="_blank"}.
