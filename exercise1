@@ -1,0 +1,15 @@
+---
+title: "Supervision 2"
+nav_order: 5
+nav_exclude: false
+search_exclude: true
+---
+
+<button class="btn js-toggle-dark-mode">Dark color scheme</button>
+
+<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
+
+# Exercise 1
+### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
+
+Note: All you need to have is NetLogo installed in your laptop. If you haven't done so already, please download and install `NetLogo (6.1.1)` according to your platform. We recommend downloading `Windows (64-bit)`, `Mac OS X`, or `Linux (64-bit)`: [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.1.1/){:target="_blank"}.
