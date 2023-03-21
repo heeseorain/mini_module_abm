@@ -121,6 +121,7 @@ ask n-of 1000 patches
 
 ## Example 2: Wolf Sheep Predation and understanding parameters, turtles and patches (5min)
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
+- This is a good example of observing how moving agents (called 'turtles' in NetLogo) and stational agetns (called patches in NetLogo) interact.
 
 ![](statics/Sup2_wolfsheep1.PNG)
 ![](statics/Sup2_wolfsheep2.PNG)
