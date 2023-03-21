@@ -67,11 +67,11 @@ Note: Recommend having this teaching material on one side of the screen and your
 - This makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html){:target="_blank"}.
 - Line 42-46 asks patches to run another ifelse command. Let's look into this with the questions below.
 
-### Example 1: Questions (10min):
+### Questions (10min):
 - Please write all your answers in a notepad (paper or laptop). We will go through the answers together.
 - Go through at your own pace. If you don't manage to go through all Qs, you can resume in the final session (5pm). If you finish quickly, feel free to start [[Exercise 4]](./exercise4.md){:target="_blank"}.
 
-Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. 
+### Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. 
 
 ![](statics/life8.png)
 
@@ -81,17 +81,17 @@ Rules can be summarised as the four points below.
 3. If there are more than 3 alive neighbors, the cell dies. (over-population)
 4. If there are 2 alive neighbors, the cell remains in the state it is in. (sustainable life)
 
-Q1-1. Try writing these rules into NetLogo code using [if](http://ccl.northwestern.edu/netlogo/docs/dict/if.html){:target="_blank"} statement: `if boolean [ commands ]`.
+### Q1-1. Try writing these rules into NetLogo code using [if](http://ccl.northwestern.edu/netlogo/docs/dict/if.html){:target="_blank"} statement: `if boolean [ commands ]`.
 - Use the patch property `live-neighbors` and the commands `cell-birth` and `cell-death`.
 - One line of code for the first three points. (You don't need to worry about the 4th point because it doesn't change the cell state.)
 
-Q1.2. Explain how these three lines of code can be shorted to line 43-46 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
+### Q1.2. Explain how these three lines of code can be shorted to line 43-46 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
 
 ![](statics/Sup2_gameoflife3.PNG)
 
-Q2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
+### Q2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
 
-Q3. Let's add one additional command to the model. Add the following lines below the `to cell-death` part. This command makes this cell colored in green to kill the four surrounding patches.  Explain this rule in your own words. 
+### Q3. Let's add one additional command to the model. Add the following lines below the `to cell-death` part. This command makes this cell colored in green to kill the four surrounding patches.  Explain this rule in your own words. 
 - Note: In case you don't see green zombie cells appearing, you change the `neighbors4` back to `neighbors` as in the screenshot below and set the initial-density around 35% so that cells don't die out too quickly. Also, try pressing "go-once" several times rather than "go-forever".
 ```
 to zombie-birth
@@ -102,7 +102,7 @@ end
 ```
 ![](statics/Sup2_gameoflife4.PNG)
 
-Q4. Let's add a new rule for `zombie-birth`. Add the following lines below the `ask patches [ ifelse ]` part. This rule runs the same ifelse command on the 1,000 randomly chosen patches, this time for `zombie-birth`.
+### Q4. Let's add a new rule for `zombie-birth`. Add the following lines below the `ask patches [ ifelse ]` part. This rule runs the same ifelse command on the 1,000 randomly chosen patches, this time for `zombie-birth`.
 - Note: [n-of](http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html). Run the model and explain how this change affects the simulation.
 ```
 ask n-of 1000 patches
@@ -113,33 +113,25 @@ ask n-of 1000 patches
 ```         
 ![](statics/Sup2_gameoflife5.PNG)
 
+### Go through the answers together (5min)
 
-### Example 2: Wolf Sheep Predation and understanding parameters, turtles and patches (5min)
+## Example 2: Wolf Sheep Predation and understanding parameters, turtles and patches (5min)
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
 
 ![](statics/Sup2_wolfsheep1.PNG)
 ![](statics/Sup2_wolfsheep2.PNG)
 
-### Example 2: Questions (10min): 
+### Questions (10min): 
 - We will go through these together.
 
-Q1. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
+### Q1. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
 - With these initial parameter settings, what happens?
 - Try running the model a few times. Do you get the same results or different? Why do you think so?
 
-Q2. Try running the model with following changes:
+### Q2. Try running the model with following changes:
 - Decrease `initial-number-wolves` to 20. What happens? How does the plot help you explain what happened?
 - Set `initial-number-sheep` to 80 and `initial-number-wolf` to 50. Set `sheep-reproduce` to 10.0%. Run the simulation. What happens?
 
-Q3. Currently, one more important agent of the ecosystem is missing - grass.
+### Q3. Currently, one more important agent of the ecosystem is missing - grass.
 - Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
 - How does including grass in the model affect the sheep and wolf population?
-
-## Introducing QGIS and using it with NetLogo (30min)
-
-### QGIS project setup
-1. Create a folder at your preferred directory on your disk (e.g. "abm" in Desktop). This folder will be the working directory for all the files.
-2. Open QGIS 3.28.4.
-3. Click `Project` > `New`.
-4. Click `Project` > `Save As`, and save as `newforest.qgz` to the working directory. 
-
