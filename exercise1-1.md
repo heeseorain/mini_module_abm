@@ -9,37 +9,23 @@ search_exclude: true
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 
-# Software exercise 1-1 (30 minutes)
+# Software exercise 1-1: Introducing NetLogo (30 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
 Note: Recommend having this teaching material on one side of the screen and your activity on the other side.
 
 ![](statics/netlogo_download.png)
 
-## Download and install NetLogo and QGIS
+## Download and install NetLogo
 - Please download and install `NetLogo (6.2.1)` according to your platform (for Windows, download 64-bit): [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.2.1/){:target="_blank"}.
-- Please download and install `QGIS (3.28 LTR)` according to your platform: [QGIS Download Page](https://www.qgis.org/en/site/forusers/download.html#){:target="_blank"}. If you already have QGIS in your laptop and if you have used QGIS before, feel free to use your version while some options etc. might be slightly different.
 
-## Instructions
-1. Read through the instruction carefully. You may face problems if you overlook any of the steps.
-2. If you wish to save your changes, save your NetLogo and QGIS file regularly.
-3. When running tasks on NetLogo and QGIS, leave the settings as default unless instructed.
-
-Note: functions and filename are `highlighted` in this document.
-
-## Software exercise overview
-In this exercise, you will get introduced to NetLogo through playing with "game of life" and "wolf sheep predation" models, preparing spatial input data on QGIS for an urban growth model, and how to use GIS extension to input raster maps on NetLogo.
-
-## Introducing NetLogo (30min)
-
-### Setup work environment for NetLogo
-1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`). The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
-3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi){:target="_blank"} in your own time.
-
-### Example 1: Game of Life and understanding NetLogo codes (10min)
+## Example 1: Game of Life and understanding NetLogo codes (10min)
 - Go through at your own pace.
 
-1. `File` > `Models Library` > `Computer Science` > `Cellular Automata` > `Life`.
+1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`). The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
+2. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi){:target="_blank"} in your own time.
+
+3. `File` > `Models Library` > `Computer Science` > `Cellular Automata` > `Life`.
 
 ![](statics/life1.png)
 
@@ -47,17 +33,17 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 - As the simulation runs, you can find recurring shapes like gliders and blinkers. 
 - Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life){:target="_blank"} to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html){:target="_blank"}.
 
-2. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
+4. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
 ![](statics/life2.png)
 
-3. Let's check the `Code` tab. 
+5. Let's check the `Code` tab. 
 - Note: If you don't see line numbers, for Windows users, on the `Menu bar`, click `Tools` > `Preferences` and check `Show Line Numbers`. 
 - For Mac users, on the `Menu bar`, click `NetLogo` > `Preferences` and check `Show Line Numbers`. 
 
 ![](statics/life3.png)
 
-4. In line 5-7, `living?` and `live-neighbors` are the properties/attributes that patches own. 
+6. In line 5-7, `living?` and `live-neighbors` are the properties/attributes that patches own. 
 - Go back to the `Interface` tab and try right-clicking on one of the patches. You can right click on a random grid cell (patch) and see the patch properties.
 
 ![](statics/life4.png)
@@ -68,7 +54,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 ![](statics/life6.png)
 
-5. Line 16-23 dictates the `setup-random` command.
+7. Line 16-23 dictates the `setup-random` command.
 - Line 18 means "ask patches to run the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"} command. ifelse commands are very important in language-based rules. 
 - Line 19-21 means "if `random-float 100 < initial-density` reports true (in other words, "if a `random floating point number >= 0 but less than 100` is less than the `initial density (default = 35.0%)`"), run the `[ cell-birth ]` command, and otherwise, run the `[ cell-death ]` command. 
 - This part makes each cell to check the state of itself.
@@ -76,7 +62,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 ![](statics/life7.png)
 
-6. Line 35-48 dictates the `go` command.
+8. Line 35-48 dictates the `go` command.
 - Line 36-37 means "set the patch property `live-neighbors` to `the number of neighboring cells that are alive`". 
 - This makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html){:target="_blank"}.
 - Line 42-46 asks patches to run another ifelse command. Let's look into this with the questions below.
