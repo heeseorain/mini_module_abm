@@ -57,7 +57,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 ![](statics/life3.png)
 
-4. In line 5-7, `living?` and `live-neighbors` are properties/attributes that patches own. 
+4. In line 5-7, `living?` and `live-neighbors` are the properties/attributes that patches own. 
 - Go back to the `Interface` tab and try right-clicking on one of the patches. You can right click on a random grid cell (patch) and see the patch properties.
 
 ![](statics/life4.png)
