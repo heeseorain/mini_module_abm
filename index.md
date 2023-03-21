@@ -12,6 +12,7 @@ Welcome to the 2023 mini-module on ABM and behavioural theories.
 Teaching materials can be found below.
 
 Lecturer: Dr Heeseo Rain Kwon
+
 Postgraduate Teaching Assistant: Melissa Barrientos
 
 ## Course outline
