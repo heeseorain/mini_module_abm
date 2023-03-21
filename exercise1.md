@@ -9,7 +9,7 @@ search_exclude: true
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 
-# Software exercise 1
+# Software exercise 1 (50 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
 ## Download and install NetLogo and QGIS
@@ -38,10 +38,15 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 ![](statics/Sup2_wolfsheep1.PNG)
 
 2. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
-3. Try running the model with following changes and explain what happens:
+- With these initial parameter settings, what happens?
+- Try running the model a few times. Do you get the same results or different? Why do you think so?
+
+3. Try running the model with following changes:
+- Decrease `initial-number-wolves` to 20. What happens? How does the plot help you explain what happened?
+- Set `initial-number-sheep` to 80 and `initial-number-wolf` to 50. Set `sheep-reproduce` to 10.0%. Run the simulation. What happens?
+
+4. Currently, one more important agent of the ecosystem is missing - grass.
 - Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
-- Decrease wolf poplulation.
-- What other sliders can you adjust to help out the sheep population?
-- Can you find any parameters that generate a stable ecosystem?
+- How does including grass in the model affect the sheep and wolf population?
 
 ![](statics/Sup2_wolfsheep2.PNG)
