@@ -33,7 +33,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi) in your own time.
 
 2. Open `Life` from `Models Library` under `Sample Models` > `Computer Science` > `Cellular Automata`.
-3. Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. As the simulation runs, you can find recurring shapes like gliders and blinkers. Note: You can refer to `Conway's Game of Life`[(https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) for more detailed information. Another good read is `The Lasting Lessons of John Conway's Game of Life`[(https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html)]
+3. Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. As the simulation runs, you can find recurring shapes like gliders and blinkers. Note: You can refer to [Conway's Game of Life`](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)(https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) for more detailed information. Another good read is `The Lasting Lessons of John Conway's Game of Life`[(https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html)]
 4. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
 ![](statics/Sup2_gameoflife1.PNG)
