@@ -26,13 +26,19 @@ Note: functions and filename are `highlighted` in this document.
 ## Software exercise overview
 In this exercise, you will get introduced to NetLogo through playing with "game of life" and "wolf sheep predation" models, preparing spatial input data on QGIS for an urban growth model, and how to use GIS extension to input raster maps on NetLogo.
 
-## Introducing NetLogo (10min)
+## Introducing NetLogo (20min)
 
 ### Setup work environment for NetLogo
-1. Launch NetLogo. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
+1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`).. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
 3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi) in your own time.
 
-### Exercise 1: Wolf Sheep Predation
+2. Open `Life` from `Models Library` under `Sample Models` > `Computer Science` > `Cellular Automata`.
+3. Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. As the simulation runs, you can find recurring shapes like gliders and blinkers. Note: You can refer to `Conway's Game of Life`[(https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) for more detailed information. Another good read is `The Lasting Lessons of John Conway's Game of Life`[(https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html)]
+4. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
+
+![](statics/Sup2_gameoflife1.PNG)
+
+### Exercise 2: Wolf Sheep Predation
 1. `Models Library` > `Biology` > `Wolf Sheep Predation`.
 
 ![](statics/Sup2_wolfsheep1.PNG)
