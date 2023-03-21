@@ -9,7 +9,7 @@ search_exclude: true
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 
-# Software exercise 1 (50 minutes)
+# Software exercise 1 (60 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
 ## Download and install NetLogo and QGIS
@@ -30,42 +30,41 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 ### Setup work environment for NetLogo
 1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`).. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
-3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi) in your own time.
+3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi){:target="_blank"} in your own time.
 
-### Exercise 1: Game of Life (20min)
+### Exercise 1: Game of Life and understanding NetLogo codes (10min)
+- Go through at your own pace.
+
 1. `File` > `Models Library` > `Computer Science` > `Cellular Automata` > `Life`.
 - Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. 
 - As the simulation runs, you can find recurring shapes like gliders and blinkers. 
-- Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html).
+- Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life){:target="_blank"} to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html){:target="_blank"}.
 
 2. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
-### Understanding NetLogo codes
-
-1. Let's check the `Code` tab. 
+3. Let's check the `Code` tab. 
 - Note: If you don't see line numbers, for Windows users, on the `Menu bar`, click `Tools` > `Preferences` and check `Show Line Numbers`. 
 - For Mac users, on the `Menu bar`, click `NetLogo` > `Preferences` and check `Show Line Numbers`. 
 
-2. In line 2-3, `living?` and `live-neighbors` are variables. 
-- In line 8, `ask patches [ cell-death ]` means to [ask](http://ccl.northwestern.edu/netlogo/docs/dict/ask.html) patches to run the `[ cell-death ]` command. 
+5. In line 2-3, `living?` and `live-neighbors` are variables. 
+- In line 8, `ask patches [ cell-death ]` means to [ask](http://ccl.northwestern.edu/netlogo/docs/dict/ask.html){:target="_blank"} patches to run the `[ cell-death ]` command. 
 - In line 26, `[ cell-death ]` command sets `living?` as false, and sets patch color as foreground color. `[ cell-birth ]` command does the opposite.
 
-3. Line 14 means "ask patches to run the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html) command. ifelse commands are very important in language-based rules. 
+6. Line 14 means "ask patches to run the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"} command. ifelse commands are very important in language-based rules. 
 - Line 15-17 means "if `random-float 100 < initial-density` reports true (in other words, "if a `random floating point number >= 0 but less than 100` is less than the `initial density (default=35)`"), run the `[ cell-birth ]` command, and otherwise, run the `[ cell-death ]` command. 
 - This part makes each cell to check the state of itself.
-- Note: You can refer to [NetLogo Dictionary](http://ccl.northwestern.edu/netlogo/docs/index2.html) when trying to understand the codes.
+- Note: You can refer to [NetLogo Dictionary](http://ccl.northwestern.edu/netlogo/docs/index2.html){:target="_blank"} when trying to understand the codes.
 
 ![](statics/Sup2_gameoflife2.PNG)
 
-4. Line 33 means "set the variable `live-neighbors` to `count how many neighboring cells are alive`" and line 32 asks patches to run this command. 
-- This part makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).
+7. Line 33 means "set the variable `live-neighbors` to `count how many neighboring cells are alive`" and line 32 asks patches to run this command. 
+- This part makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html){:target="_blank"}.
 
-5. Line 38 asks patches to run another ifelse command. 
+8. Line 38 asks patches to run another ifelse command. 
 
-### Questions (10min): 
+### Exercise 1: Questions (10min):
 - Please write all your answers in a notepad (paper or laptop). We will go through the answers together.
-- If you don't manage to go through all of these, you can resume in the final session (5pm).
-- If you finish all of these quickly, feel free to open and start [[Exercise 4]](./exercise4.md){:target="_blank"}.
+- Go through at your own pace. If you don't manage to go through all Qs, you can resume in the final session (5pm). If you finish quickly, feel free to start [[Exercise 4]](./exercise4.md){:target="_blank"}.
 
 Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. Rules can be summarised as the four points below. 
 1. If there is exactly 3 alive neighbors, the cell becomes alive. (birth)
@@ -73,12 +72,11 @@ Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can fin
 3. If there are more than 3 alive neighbors, the cell dies. (over-population)
 4. If there are 2 alive neighbors, the cell remains in the state it is in. (sustainable life)
 
-Q1-1. Try writing these rules into NetLogo code using [if] (http://ccl.northwestern.edu/netlogo/docs/dict/if.html) statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
+Q1-1. Try writing these rules into NetLogo code using [if] (http://ccl.northwestern.edu/netlogo/docs/dict/if.html){:target="_blank"} statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
 
-Q1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html)](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html).
+Q1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
 
 ![](statics/Sup2_gameoflife3.PNG)
-
 
 Q2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
 
@@ -105,21 +103,33 @@ ask n-of 1000 patches
 ![](statics/Sup2_gameoflife5.PNG)
 
 
-### Exercise 2: Wolf Sheep Predation
+### Exercise 2: Wolf Sheep Predation and understanding parameters, turtles and patches (5min)
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
 
 ![](statics/Sup2_wolfsheep1.PNG)
 ![](statics/Sup2_wolfsheep2.PNG)
 
-2. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
+### Exercise 2: Questions (10min): 
+- We will go through these together.
+
+Q1. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
 - With these initial parameter settings, what happens?
 - Try running the model a few times. Do you get the same results or different? Why do you think so?
 
-3. Try running the model with following changes:
+Q2. Try running the model with following changes:
 - Decrease `initial-number-wolves` to 20. What happens? How does the plot help you explain what happened?
 - Set `initial-number-sheep` to 80 and `initial-number-wolf` to 50. Set `sheep-reproduce` to 10.0%. Run the simulation. What happens?
 
-4. Currently, one more important agent of the ecosystem is missing - grass.
+Q3. Currently, one more important agent of the ecosystem is missing - grass.
 - Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
 - How does including grass in the model affect the sheep and wolf population?
+
+## Introducing QGIS and using it with NetLogo (30min)
+
+### QGIS project setup
+1. Create a folder at your preferred directory on your disk (e.g. "abm" in Desktop). This folder will be the working directory.
+2. 
+
+### Exercise 3: Preparing spatial input data on QGIS for an urban growth model
+- "Isobenefit Urbanism" reimplemented by H.R.Kwon (2023) as an example of an urban growth model (5min)
 
