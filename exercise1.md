@@ -26,13 +26,13 @@ Note: functions and filename are `highlighted` in this document.
 ## Software exercise overview
 In this exercise, you will get introduced to NetLogo through playing with "game of life" and "wolf sheep predation" models, preparing spatial input data on QGIS for an urban growth model, and how to use GIS extension to input raster maps on NetLogo.
 
-## Introducing NetLogo (20min)
+## Introducing NetLogo (30min)
 
 ### Setup work environment for NetLogo
 1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`).. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
 3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi) in your own time.
 
-### Exercise 1: Game of Life
+### Exercise 1: Game of Life (20min)
 1. `File` > `Models Library` > `Computer Science` > `Cellular Automata` > `Life`.
 - Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. As the simulation runs, you can find recurring shapes like gliders and blinkers. Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html).
 
@@ -60,20 +60,22 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 5. Line 38 asks patches to run another ifelse command. 
 
+### Questions: Please write all your answers in a notepad (paper or laptop) 
+
 #### Question 1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. Rules can be summarised as the four points below. 
 1. If there is exactly 3 alive neighbors, the cell becomes alive. (birth)
 2. If there are less than 2 alive neighbors, the cell dies. (under-population)
 3. If there are more than 3 alive neighbors, the cell dies. (over-population)
 4. If there are 2 alive neighbors, the cell remains in the state it is in. (sustainable life)
 
-#### 1-1. Try writing these rules into NetLogo code using `if` [(http://ccl.northwestern.edu/netlogo/docs/dict/if.html)](http://ccl.northwestern.edu/netlogo/docs/dict/if.html) statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
+#### 1-1. Try writing these rules into NetLogo code using [if] (http://ccl.northwestern.edu/netlogo/docs/dict/if.html) statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
 
-#### 1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the `ifelse` [(http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html)](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html) command.
+#### 1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html)](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html).
 
 ![](statics/Sup2_gameoflife3.PNG)
 
 
-#### Question 2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to `neighbors4`(http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
+#### Question 2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
 
 #### Question 3. Let's add one additional command to the model. Add the following lines below the `to cell-death` part. This command makes this cell colored in green to kill the four surrounding patches. Explain this rule in your own words. (Note: In case you don't see green zombie cells appearing, you change the `neighbors4` back to `neighbors` as in the screenshot below and set the initial-density around 35% so that cells don't die out too quickly. Also, try pressing "go-once" several times rather than "go-forever".)
 ```
