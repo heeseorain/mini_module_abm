@@ -85,14 +85,14 @@ Rules can be summarised as the four points below.
 - Use the patch property `live-neighbors` and the commands `cell-birth` and `cell-death`.
 - One line of code for the first three points. (You don't need to worry about the 4th point because it doesn't change the cell state.)
 
-### Q1.2. Explain how these three lines of code can be shorted to line 43-46 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
+### Q1-2. Explain how these three lines of code can be shortened to line 43-46 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
 
-![](statics/Sup2_gameoflife3.PNG)
+![](statics/life9.png)
 
-### Q2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
+### Q2. In line 37, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
 
-### Q3. Let's add one additional command to the model. Add the following lines below the `to cell-death` part. This command makes this cell colored in green to kill the four surrounding patches.  Explain this rule in your own words. 
-- Note: In case you don't see green zombie cells appearing, you change the `neighbors4` back to `neighbors` as in the screenshot below and set the initial-density around 35% so that cells don't die out too quickly. Also, try pressing "go-once" several times rather than "go-forever".
+### Q3. Let's add one additional command to the model. Add the following lines below the `to cell-death` command. What do you think the birth of zombie cells would do to the neighbouring cells?
+
 ```
 to zombie-birth
   set living? true
@@ -100,10 +100,12 @@ to zombie-birth
   set pcolor green
 end
 ```
-![](statics/Sup2_gameoflife4.PNG)
 
-### Q4. Let's add a new rule for `zombie-birth`. Add the following lines below the `ask patches [ ifelse ]` part. This rule runs the same ifelse command on the 1,000 randomly chosen patches, this time for `zombie-birth`.
-- Note: [n-of](http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html). Run the model and explain how this change affects the simulation.
+![](statics/life10.png)
+
+### Q4. Let's add `zombie-birth` in the `to go` command. Add the following lines before `tick`. Run the model and explain how this change affects the simulation.
+ - This rule runs the same ifelse command but this time for `zombie-birth`, on the 1,000 randomly chosen patches (Refer to [n-of](http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html)).
+ - Note: Try pressing "go-once" several times rather than "go-forever" to see what zombie cells do in each tick.
 ```
 ask n-of 1000 patches
   [ ifelse live-neighbors = 3
@@ -111,9 +113,11 @@ ask n-of 1000 patches
     [if live-neighbors != 2
       [ cell-death ] ] ]
 ```         
-![](statics/Sup2_gameoflife5.PNG)
+![](statics/life11.png)
 
-## Example 1: Game of Life Answers (5min):
+- Note: If you don't see green zombie cells appearing, change the `neighbors4` back to `neighbors` under `to go` command and set the initial-density back to 35% in the `interface` so that cells don't die out too quickly.
+
+## Example 1: Game of Life Answers (5min)
 
 ## Example 2: Wolf Sheep Predation and understanding parameters, turtles and patches (5min)
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
