@@ -36,6 +36,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 1. `Models Library` > `Biology` > `Wolf Sheep Predation`.
 
 ![](statics/Sup2_wolfsheep1.PNG)
+![](statics/Sup2_wolfsheep2.PNG)
 
 2. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
 - With these initial parameter settings, what happens?
@@ -49,4 +50,3 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 - Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
 - How does including grass in the model affect the sheep and wolf population?
 
-![](statics/Sup2_wolfsheep2.PNG)
