@@ -20,7 +20,7 @@ Postgraduate Teaching Assistant: Melissa Barrientos
 |Lecture|Topic|Lecturer|
 |---|---|---:|
 |Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon| 
-|Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on QGIS for an urban growth model [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
+|Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on QGIS for an urban growth model [[Exercises]](./exercise1.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
 |Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |Software exercise 2|Language change model [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |Lecture 3|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
