@@ -34,11 +34,13 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 ### Exercise 1: Game of Life (20min)
 1. `File` > `Models Library` > `Computer Science` > `Cellular Automata` > `Life`.
-- Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. As the simulation runs, you can find recurring shapes like gliders and blinkers. Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html).
+- Game of Life is a simple cellular automata (CA) model where the state of the cells (patches) change according to behavioral rules. 
+- As the simulation runs, you can find recurring shapes like gliders and blinkers. 
+- Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html).
 
 2. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
-### Understanding NetLogo codes
+#### Understanding NetLogo codes
 
 1. Let's check the `Code` tab. 
 - Note: If you don't see line numbers, for Windows users, on the `Menu bar`, click `Tools` > `Preferences` and check `Show Line Numbers`. 
