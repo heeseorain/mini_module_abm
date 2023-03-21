@@ -14,7 +14,7 @@ search_exclude: true
 
 ## Download and install NetLogo and QGIS
 - Please download and install `NetLogo (6.2.1)` according to your platform (for Windows, download 64-bit): [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.2.1/){:target="_blank"}.
-- Please download and install `QGIS (3.28 LTR)` according to your platform: [QGIS Download Page](https://www.qgis.org/en/site/forusers/download.html#){:target="_blank"}.
+- Please download and install `QGIS (3.28 LTR)` according to your platform: [QGIS Download Page](https://www.qgis.org/en/site/forusers/download.html#){:target="_blank"}. If you already have QGIS in your laptop and if you have used QGIS before, feel free to use your version while some options etc. might be slightly different.
 
 ## Instructions
 1. Read through the instruction carefully. You may face problems if you overlook any of the steps.
@@ -128,8 +128,16 @@ Q3. Currently, one more important agent of the ecosystem is missing - grass.
 
 ### QGIS project setup
 1. Create a folder at your preferred directory on your disk (e.g. "abm" in Desktop). This folder will be the working directory.
-2. 
+2. Open QGIS 3.28.4.
+3. Click `Project` > `New`.
+4. Click `Project` > `Save As`, and save as `newforest.qgz` to the working directory. 
 
 ### Exercise 3: Preparing spatial input data on QGIS for an urban growth model
-- "Isobenefit Urbanism" reimplemented by H.R.Kwon (2023) as an example of an urban growth model (5min)
+- We will use "Isobenefit Urbanism" reimplemented by H.R.Kwon (2023) as an example of an urban growth model
+- We will use data of a small part of [New Forest District](https://www.google.com/maps/place/New+Forest+District/) which includes Milford on Sea and Lymington.
+
+1. Download 
+- https://osdatahub.os.uk/downloads/open/BoundaryLine
+1. Download land use data of the case area: [ukland_4841866_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ukland_4841866_milford_lymington.zip){:target="_blank"}.
+2. Download 
 
