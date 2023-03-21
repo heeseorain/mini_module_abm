@@ -33,6 +33,6 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 3. In `File` > `Models Library`, you can find a collection of sample models to explore. There are many sample models available on the User Community Models web page.
 
 ### Exercise 1: Wolf Sheep Predation
-1. Open `Wolf Sheep Predation` from `Models Library` under `Biology` folder.
+1. `Models Library` > `Biology` > `Wolf Sheep Predation`.
 
 ![](statics/Sup2_wolfsheep1.PNG)
