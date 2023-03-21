@@ -29,7 +29,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 ## Introducing NetLogo (30min)
 
 ### Setup work environment for NetLogo
-1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`).. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
+1. Open `NetLogo 6.2.1` (NOT `NetLogo 3D 6.2.1`). The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
 3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi){:target="_blank"} in your own time.
 
 ### Exercise 1: Game of Life and understanding NetLogo codes (10min)
