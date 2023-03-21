@@ -64,20 +64,23 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 ![](statics/life5.png)
 
 - Back to the 'Code' tab, in line 12, `ask patches [ cell-death ]` means to [ask](http://ccl.northwestern.edu/netlogo/docs/dict/ask.html){:target="_blank"} patches to run the `[ cell-death ]` command. 
+- In line 30, `[ cell-death ]` command sets the patch property `living?` as false, and sets patch color as foreground color. `[ cell-birth ]` command does the opposite.
 
 ![](statics/life6.png)
 
-- In line 30, `[ cell-death ]` command sets the patch property `living?` as false, and sets patch color as foreground color. `[ cell-birth ]` command does the opposite.
-
-5. Line 16 means "ask patches to run the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"} command. ifelse commands are very important in language-based rules. 
+5. Line 16-23 dictates the `setup-random` command.
+- Line 18 means "ask patches to run the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"} command. ifelse commands are very important in language-based rules. 
 - Line 19-21 means "if `random-float 100 < initial-density` reports true (in other words, "if a `random floating point number >= 0 but less than 100` is less than the `initial density (default = 35.0%)`"), run the `[ cell-birth ]` command, and otherwise, run the `[ cell-death ]` command. 
 - This part makes each cell to check the state of itself.
 - Note: You can refer to [NetLogo Dictionary](http://ccl.northwestern.edu/netlogo/docs/index2.html){:target="_blank"} when trying to understand the codes. For example, [random-float](http://ccl.northwestern.edu/netlogo/docs/dict/random-float.html){:target="_blank"}.
 
-7. Line 33 means "set the variable `live-neighbors` to `count how many neighboring cells are alive`" and line 32 asks patches to run this command. 
+![](statics/life7.png)
+
+6. Line 35
+- 33 means "set the variable `live-neighbors` to `count how many neighboring cells are alive`" and line 32 asks patches to run this command. 
 - This part makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html){:target="_blank"}.
 
-8. Line 38 asks patches to run another ifelse command. 
+7. Line 38 asks patches to run another ifelse command. 
 
 ### Exercise 1: Questions (10min):
 - Please write all your answers in a notepad (paper or laptop). We will go through the answers together.
