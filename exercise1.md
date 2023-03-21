@@ -133,11 +133,11 @@ Q3. Currently, one more important agent of the ecosystem is missing - grass.
 4. Click `Project` > `Save As`, and save as `newforest.qgz` to the working directory. 
 
 ### Exercise 3: Preparing spatial input data on QGIS for an urban growth model
-- We will use "Isobenefit Urbanism" reimplemented by H.R.Kwon (2023) as an example of an urban growth model
+- As an example of an urban growth model, we will use [Isobenefit Urbanism morphogenesis](https://www.sciencedirect.com/science/article/pii/S0301479719307571) currently being reimplemented by H.R.Kwon (2023) as part of a project led by Dr Tommaso Gabrieli at UCL. 
 - We will use data of a small part of [New Forest District](https://www.google.com/maps/place/New+Forest+District/) which includes Milford on Sea and Lymington.
 
-1. Download 
-- https://osdatahub.os.uk/downloads/open/BoundaryLine
-1. Download land use data of the case area: [ukland_4841866_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ukland_4841866_milford_lymington.zip){:target="_blank"}.
-2. Download 
+1. Download boundary map of the case area: [ward_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ward_milford_lymington.zip){:target="_blank"}.
+- Note: This boundary map is extracted from the [Ordinance Survey Data Hub](https://osdatahub.os.uk/downloads/open/BoundaryLine). If you're interested in accessing spatial data for different parts of UK, OS Data Hub is a good source.
+2. Download land use map of the case area: [ukland_4841866_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ukland_4841866_milford_lymington.zip){:target="_blank"}.
+2. 
 
