@@ -72,7 +72,7 @@ Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can fin
 3. If there are more than 3 alive neighbors, the cell dies. (over-population)
 4. If there are 2 alive neighbors, the cell remains in the state it is in. (sustainable life)
 
-Q1-1. Try writing these rules into NetLogo code using [if] (http://ccl.northwestern.edu/netlogo/docs/dict/if.html){:target="_blank"} statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
+Q1-1. Try writing these rules into NetLogo code using [if](http://ccl.northwestern.edu/netlogo/docs/dict/if.html){:target="_blank"} statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
 
 Q1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
 
@@ -127,7 +127,7 @@ Q3. Currently, one more important agent of the ecosystem is missing - grass.
 ## Introducing QGIS and using it with NetLogo (30min)
 
 ### QGIS project setup
-1. Create a folder at your preferred directory on your disk (e.g. "abm" in Desktop). This folder will be the working directory.
+1. Create a folder at your preferred directory on your disk (e.g. "abm" in Desktop). This folder will be the working directory for all the files.
 2. Open QGIS 3.28.4.
 3. Click `Project` > `New`.
 4. Click `Project` > `Save As`, and save as `newforest.qgz` to the working directory. 
@@ -136,8 +136,10 @@ Q3. Currently, one more important agent of the ecosystem is missing - grass.
 - As an example of an urban growth model, we will use [Isobenefit Urbanism morphogenesis](https://www.sciencedirect.com/science/article/pii/S0301479719307571) currently being reimplemented by H.R.Kwon (2023) as part of a project led by Dr Tommaso Gabrieli at UCL. 
 - We will use data of a small part of [New Forest District](https://www.google.com/maps/place/New+Forest+District/) which includes Milford on Sea and Lymington.
 
-1. Download boundary map of the case area: [ward_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ward_milford_lymington.zip){:target="_blank"}.
+1. Download boundary map of the case area: [ward_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ward_milford_lymington.zip){:target="_blank"} and save 
 - Note: This boundary map is extracted from the [Ordinance Survey Data Hub](https://osdatahub.os.uk/downloads/open/BoundaryLine). If you're interested in accessing spatial data for different parts of UK, OS Data Hub is a good source.
 2. Download land use map of the case area: [ukland_4841866_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ukland_4841866_milford_lymington.zip){:target="_blank"}.
-2. 
+- Note: This land use map is extracted from the "UKLand" data of [Verisk Data Download](https://digimap.edina.ac.uk/roam/download/verisk){:target="_blank"}. [Edina Digimap](https://digimap.edina.ac.uk/) is a great source for spatial data - if you're interested, log in with your UCL account and try exploring what's available. 
+
+3. Load 
 
