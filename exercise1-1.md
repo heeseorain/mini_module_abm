@@ -14,7 +14,7 @@ search_exclude: true
 
 Note: Recommend having this teaching material on one side of the screen and your activity on the other side.
 
-![](statics/netlogo_download.png)
+![](statics/two_screens.png)
 
 ## Download and install NetLogo
 - Please download and install `NetLogo (6.2.1)` according to your platform (for Windows, download 64-bit): [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.2.1/){:target="_blank"}.
@@ -67,7 +67,7 @@ Note: Recommend having this teaching material on one side of the screen and your
 - This makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html){:target="_blank"}.
 - Line 42-46 asks patches to run another ifelse command. Let's look into this with the questions below.
 
-### Questions (10min):
+## Example 1: Game of Life Questions (10min):
 - Please write all your answers in a notepad (paper or laptop). We will go through the answers together.
 - Go through at your own pace. If you don't manage to go through all Qs, you can resume in the final session (5pm). If you finish quickly, feel free to start [[Exercise 4]](./exercise4.md){:target="_blank"}.
 
@@ -113,7 +113,7 @@ ask n-of 1000 patches
 ```         
 ![](statics/Sup2_gameoflife5.PNG)
 
-### Go through the answers together (5min)
+## Example 1: Game of Life Answers (5min):
 
 ## Example 2: Wolf Sheep Predation and understanding parameters, turtles and patches (5min)
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
@@ -121,7 +121,7 @@ ask n-of 1000 patches
 ![](statics/Sup2_wolfsheep1.PNG)
 ![](statics/Sup2_wolfsheep2.PNG)
 
-### Questions (10min): 
+## Example 2: Wolf Sheep Predation Questions (10min): 
 - We will go through these together.
 
 ### Q1. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
