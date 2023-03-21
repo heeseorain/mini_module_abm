@@ -10,21 +10,22 @@ nav_order: 1
 # Mini-module 2023: Applying Agent-Based Modelling and Behavioural Theories in Urban Planning and Development
 Welcome to the 2023 mini-module on ABM and behavioural theories.  
 Teaching materials can be found below.
+
 Lecturer: Dr Heeseo Rain Kwon
 Postgraduate Teaching Assistant: Melissa Barrientos
 
 ## Course outline
 
-|Lecture|Topic|
-|---|---:|
-|Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)| 
-|Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on QGIS for an urban growth model [[Exercises]](./___.md)|(Dr Heeseo Rain Kwon, Melissa Barrientos)| 
-|Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|
-|Software exercise 2|Language change model [[Exercises]](./___.md)|
-|Lecture 3|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|
-|Software exercise 3|Using CSV extension to load turtles, preparing and loading NHS disease prevalence data [[Exercises]](./___.md)|
-|Lecture 4|Summary of the module learnings and time for further individual questions and extra exercises |
-|Software exercise 4| SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|
+|Lecture|Topic|Lecturer|
+|---|---|---:|
+|Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon| 
+|Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on QGIS for an urban growth model [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
+|Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
+|Software exercise 2|Language change model [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|Lecture 3|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
+|Software exercise 3|Using CSV extension to load turtles, preparing and loading NHS disease prevalence data [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|Lecture 4|Summary of the module learnings and time for further individual questions and extra exercises |Dr Heeseo Rain Kwon|
+|Software exercise 4| SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 
 ### Contributors
 The teaching materials are created by Dr Heeseo Rain Kwon.
