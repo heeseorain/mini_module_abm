@@ -12,6 +12,10 @@ search_exclude: true
 # Software exercise 1 (60 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
+Note: Recommend having this teaching material on one side of the screen and your activity on the other side.
+
+![](statics/netlogo_download.png)
+
 ## Download and install NetLogo and QGIS
 - Please download and install `NetLogo (6.2.1)` according to your platform (for Windows, download 64-bit): [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.2.1/){:target="_blank"}.
 - Please download and install `QGIS (3.28 LTR)` according to your platform: [QGIS Download Page](https://www.qgis.org/en/site/forusers/download.html#){:target="_blank"}. If you already have QGIS in your laptop and if you have used QGIS before, feel free to use your version while some options etc. might be slightly different.
