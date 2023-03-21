@@ -5,3 +5,5 @@
 
 ### Optional: Manually drawing cells
 1. Open the original `Life` model from `Models Library` again. Click `setup-blank` and `draw-cells` button and manually attempt drawing shapes that are stable and do not change, or shapes that return to their initial state after a few ticks. (Note: You can test the patterns suggested here: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life.)
+
+![](statics/Sup2_gameoflife1.PNG)
