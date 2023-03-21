@@ -40,7 +40,7 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 
 2. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
-#### Understanding NetLogo codes
+### Understanding NetLogo codes
 
 1. Let's check the `Code` tab. 
 - Note: If you don't see line numbers, for Windows users, on the `Menu bar`, click `Tools` > `Preferences` and check `Show Line Numbers`. 
@@ -58,28 +58,32 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 ![](statics/Sup2_gameoflife2.PNG)
 
 4. Line 33 means "set the variable `live-neighbors` to `count how many neighboring cells are alive`" and line 32 asks patches to run this command. 
-- This part makes each cell to check the state of its eight surrounding neighbors. Note: Refer to `neighbors`[(http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html)] (http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).
+- This part makes each cell to check the state of its eight surrounding neighbors. Note: Refer to [neighbors](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).
 
 5. Line 38 asks patches to run another ifelse command. 
 
-### Questions: Please write all your answers in a notepad (paper or laptop) 
+### Questions (10min): 
+- Please write all your answers in a notepad (paper or laptop). We will go through the answers together.
+- If you don't manage to go through all of these, you can resume in the final session (5pm).
+- If you finish all of these quickly, feel free to open and start [[Exercise 4]](./exercise4.md){:target="_blank"}.
 
-#### Question 1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. Rules can be summarised as the four points below. 
+Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. Rules can be summarised as the four points below. 
 1. If there is exactly 3 alive neighbors, the cell becomes alive. (birth)
 2. If there are less than 2 alive neighbors, the cell dies. (under-population)
 3. If there are more than 3 alive neighbors, the cell dies. (over-population)
 4. If there are 2 alive neighbors, the cell remains in the state it is in. (sustainable life)
 
-#### 1-1. Try writing these rules into NetLogo code using [if] (http://ccl.northwestern.edu/netlogo/docs/dict/if.html) statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
+Q1-1. Try writing these rules into NetLogo code using [if] (http://ccl.northwestern.edu/netlogo/docs/dict/if.html) statement, one line of code for the first three points (Note: You don't need to worry about the 4th point because it doesn't change the cell state). 
 
-#### 1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html)](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html).
+Q1.2. Explain how these three lines of code can be shorted to line 39-42 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html)](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html).
 
 ![](statics/Sup2_gameoflife3.PNG)
 
 
-#### Question 2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
+Q2. In line 33, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
 
-#### Question 3. Let's add one additional command to the model. Add the following lines below the `to cell-death` part. This command makes this cell colored in green to kill the four surrounding patches. Explain this rule in your own words. (Note: In case you don't see green zombie cells appearing, you change the `neighbors4` back to `neighbors` as in the screenshot below and set the initial-density around 35% so that cells don't die out too quickly. Also, try pressing "go-once" several times rather than "go-forever".)
+Q3. Let's add one additional command to the model. Add the following lines below the `to cell-death` part. This command makes this cell colored in green to kill the four surrounding patches.  Explain this rule in your own words. 
+- Note: In case you don't see green zombie cells appearing, you change the `neighbors4` back to `neighbors` as in the screenshot below and set the initial-density around 35% so that cells don't die out too quickly. Also, try pressing "go-once" several times rather than "go-forever".
 ```
 to zombie-birth
   set living? true
@@ -89,7 +93,8 @@ end
 ```
 ![](statics/Sup2_gameoflife4.PNG)
 
-#### Question 4. Let's add a new rule for `zombie-birth`. Add the following lines below the `ask patches [ ifelse ]` part. This rule runs the same ifelse command on the 1,000 randomly chosen patches, this time for `zombie-birth`. (Note: `n-of`[(http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html)](http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html)). Run the model and explain how this change affects the simulation.
+Q4. Let's add a new rule for `zombie-birth`. Add the following lines below the `ask patches [ ifelse ]` part. This rule runs the same ifelse command on the 1,000 randomly chosen patches, this time for `zombie-birth`.
+- Note: [n-of](http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html). Run the model and explain how this change affects the simulation.
 ```
 ask n-of 1000 patches
   [ ifelse live-neighbors = 3
@@ -99,16 +104,6 @@ ask n-of 1000 patches
 ```         
 ![](statics/Sup2_gameoflife5.PNG)
 
-
-#### Question 5. In 500 words, explain how the concept of game of life can apply to planning-related studies. Suggested reading includes the following and you can also refer to other materials that you find. In-text citation is encouraged. 
-- Dounas, T. et al. (2017) ‘Dense Urban Typologies and the Game of Life: Evolving Cellular Automata’, in Çağdaş, G. et al. (eds) Proceedings of the 17th International Conference on Computer Aided Architectural Design Futures, Istanbul Technical. Levent, Istanbul: Cenkler Matbaa, pp. 648–666. Available at: http://papers.cumincad.org/data/works/att/cf2017_648.pdf.
-- Pinto, N. N. and Antunes, A. P. (2007) ‘Cellular automata and urban studies: a literature survey’, ACE: architecture, city and environment, 1(3), pp. 368–399. doi: 10.5821/ace.v1i3.2378. Available at: https://www.research.manchester.ac.uk/portal/files/22523283/POST-PEER-REVIEW-PUBLISHERS.PDF
-
-
-### Optional: Manually drawing cells
-1. Open the original `Life` model from `Models Library` again. Click `setup-blank` and `draw-cells` button and manually attempt drawing shapes that are stable and do not change, or shapes that return to their initial state after a few ticks. (Note: You can test the patterns suggested here: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life.)
-
-![](statics/Sup2_gameoflife1.PNG)
 
 ### Exercise 2: Wolf Sheep Predation
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
