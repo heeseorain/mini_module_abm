@@ -24,15 +24,24 @@ search_exclude: true
 Note: functions and filename are `highlighted` in this document.
 
 ## Software exercise overview
-In this exercise, you will get introduced to NetLogo through playing with "game of life" and "wolf-sheep-grass predation model", preparing spatial input data on QGIS for an urban growth model, and how to use GIS extension to input raster maps on NetLogo.
+In this exercise, you will get introduced to NetLogo through playing with "game of life" and "wolf sheep predation" models, preparing spatial input data on QGIS for an urban growth model, and how to use GIS extension to input raster maps on NetLogo.
 
 ## Introducing NetLogo (10min)
 
 ### Setup work environment for NetLogo
-1. Launch NetLogo. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.1.1)](https://ccl.northwestern.edu/netlogo/docs/){:target="_blank"} for more detailed information.
-3. In `File` > `Models Library`, you can find a collection of sample models to explore. There are many sample models available on the User Community Models web page.
+1. Launch NetLogo. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.2.1)](https://ccl.northwestern.edu/netlogo/6.2.1/docs/){:target="_blank"} for more information.
+3. In `File` > `Models Library`, you can find a collection of sample models to explore. Note: You can find more on the [NetLogo User Community Models web page](http://ccl.northwestern.edu/netlogo/models/community/index.cgi) in your own time.
 
 ### Exercise 1: Wolf Sheep Predation
 1. `Models Library` > `Biology` > `Wolf Sheep Predation`.
 
 ![](statics/Sup2_wolfsheep1.PNG)
+
+2. Click `setup` > `go` to start the simulation, and click `go` again to stop the simulation.
+3. Try running the model with following changes and explain what happens:
+- Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
+- Decrease wolf poplulation.
+- What other sliders can you adjust to help out the sheep population?
+- Can you find any parameters that generate a stable ecosystem?
+
+![](statics/Sup2_wolfsheep2.PNG)
