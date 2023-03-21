@@ -40,6 +40,8 @@ In this exercise, you will get introduced to NetLogo through playing with "game 
 - As the simulation runs, you can find recurring shapes like gliders and blinkers. 
 - Note: You can quickly scroll through [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life){:target="_blank"} to get a quick idea. Another good read in your own time is [The Lasting Lessons of John Conway's Game of Life](https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html){:target="_blank"}.
 
+![](statics/life1.PNG)
+
 2. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
 3. Let's check the `Code` tab. 
