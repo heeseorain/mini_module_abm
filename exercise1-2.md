@@ -38,11 +38,26 @@
 
 7. Let's make a raster map of the wards in the case area in 40*40m grid cells.
 - In the `Layers` box, right-click on `ward_milford_lymington` and click `Open Attributes Table`.
-- 
+- There are five wards in our case area.
 
    ![](statics/newforest4.png)
+   
+8. I have already created a field `ward` and assigned values 1 to 5 to each of the ward (1=Milford, 2=Pennington, 3=Hordle, 4=Lymington Town, 5=Buckland)
+- Note: New field can be created by clicking the `Field calculator` icon (4th from the right in the Attribute Table menu bar). If you want to use this field to generate a raster file to be loaded on NetLogo, I suggest using `Decimal number (real)` as the `Output field type`.
+
+9. Now, we will use this field 'ward` to generate a raster file. On the QGIS menu bar, click `Raster` > `Conversion` > `Rasterize (Vector to Raster)`.
 
    ![](statics/newforest5.png)
+   
+10. In the `Parameters `, put the following:
+- Input layer: ward_milford_lymington
+- Field to use for a burn-in value: ward
+- A fixed value to burn: Click the `X` button on the right to make it `Not set`.
+- Output raster size units: Georeferenced units
+- Width/Horizontal resolution: 40
+- Height/Vertical resolution: 40
+- Output extent: Click the `X` button on the right to make it `Not set`.
+- Assign a specified nodata vlaue to output bands: Click the `X` button on the right to make it `Not set`.
 
    ![](statics/newforest6.png)
 
