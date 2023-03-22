@@ -4,7 +4,7 @@
 ## Download and install QGIS
 - Please download and install `QGIS 3.28 LTR` according to your platform: [QGIS Download Page](https://www.qgis.org/en/site/forusers/download.html#){:target="_blank"}.
 
-### Example 1: Preparing spatial input data on QGIS for an urban growth model
+### Example 1: Preparing spatial input data on QGIS for an urban growth model (15min)
 - As an example of an urban growth model, we will use [Isobenefit Urbanism morphogenesis](https://www.sciencedirect.com/science/article/pii/S0301479719307571){:target="_blank"} currently being reimplemented by Dr Heeseo Rain Kwon (2023) as part of a project led by Dr Tommaso Gabrieli at UCL. 
 - We will use data of a small part of [New Forest District](https://www.google.com/maps/place/New+Forest+District/){:target="_blank"} which includes Milford on Sea and Lymington.
 
@@ -87,4 +87,9 @@
 - The `landuse_te` field seem to contain useful information.
 
    ![](statics/newforest10.png)
+   
+15. In the `Layers` box, right-click on `ukland_4841866_milford_lymington` and click `Properties`.
 
+### Quiz in a group (5min)
+
+### Example 2: Loading raster data on NetLogo for an urban growth model (10min)
