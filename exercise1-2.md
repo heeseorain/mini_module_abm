@@ -81,6 +81,10 @@
 
    ![](statics/newforest9.png)
 
+14. Let's make the raster map for land use in the same way. Let's first understand the land use shapefile.
+- In the `Layers` box, right-click on `ukland_4841866_milford_lymington` and click `Attribute Table`.
+- This shapefile is made of 939 features.
+- The `landuse_te` field seem to contain useful information.
 
-
+   ![](statics/newforest10.png)
 
