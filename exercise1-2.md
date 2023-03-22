@@ -49,16 +49,23 @@
 
    ![](statics/newforest5.png)
    
-10. In the `Parameters `, put the following:
-- Input layer: ward_milford_lymington
-- Field to use for a burn-in value: ward
+10. In the `Parameters`, put the following, click `Run` and click `Close`.
+- Input layer: `ward_milford_lymington`
+- Field to use for a burn-in value: `ward`
 - A fixed value to burn: Click the `X` button on the right to make it `Not set`.
-- Output raster size units: Georeferenced units
-- Width/Horizontal resolution: 40
-- Height/Vertical resolution: 40
+- Output raster size units: `Georeferenced units`
+- Width/Horizontal resolution: `40`
+- Height/Vertical resolution: `40`
 - Output extent: Click the `X` button on the right to make it `Not set`.
 - Assign a specified nodata vlaue to output bands: Click the `X` button on the right to make it `Not set`.
 
    ![](statics/newforest6.png)
 
+11. A new file `Rasterized` is created. On the QGIS menu bar, click on the `Identify Features` icon (looks like an information sign) and click on the wards on the screen.
+- You will see that the following values are assigned to the wards: 1=Milford, 2=Pennington, 3=Hordle, 4=Lymington Town, 5=Buckland.
+
    ![](statics/newforest7.png)
+
+12. 
+
+
