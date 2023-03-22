@@ -22,6 +22,7 @@
 
 4. Drag and drop `ward_milford_lymington.shp` and `ukland_4841866_milford_lymington.shp` into the `Layers` box. 
 - Alternatively, you can click on the menu tab, `Layer` > `Add Layer` > `Add Vector Layer`.
+- These shapefiles are vector data, i.e. made of points, lines, and polygons. 
 
    ![](statics/newforest1.png)
 
@@ -32,8 +33,12 @@
    ![](statics/newforest2.png)
    ![](statics/newforest3.png)
 
-6. in the `Layers` box, right-click on `ward_milford_lymington` and click `Attributes Table`.
+6. It is useful to convert vector data into raster data (i.e. made of pixels or grid cells) and load on NetLogo. 
+- The grid cells of the raster data can correspond to the patches in NetLogo. Hence, We can assign the patch property based on the raster data.
 
+7. Let's make a raster map of the wards in the case area in 40*40m grid cells.
+- In the `Layers` box, right-click on `ward_milford_lymington` and click `Open Attributes Table`.
+- 
 
    ![](statics/newforest4.png)
 
