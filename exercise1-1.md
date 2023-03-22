@@ -30,7 +30,7 @@ Note: Recommend having this teaching material on one side of the screen and your
 
 3. `File` > `Models Library` > `Computer Science` > `Cellular Automata` > `Life`.
 
-![](statics/life1.png)
+   ![](statics/life1.png)
 
 - Game of Life is a simple cellular automata (CA) model where the state of the grid cells (patches in NetLogo terminology) changes according to behavioral rules. 
 - As the simulation runs, you can find recurring shapes like gliders and blinkers. 
@@ -38,24 +38,24 @@ Note: Recommend having this teaching material on one side of the screen and your
 
 4. Click `setup-random` > `go-forever` to start the simulation, and click `go-forever` again to stop the simulation.
 
-![](statics/life2.png)
+   ![](statics/life2.png)
 
 5. Let's check the `Code` tab. 
 - Note: If you don't see line numbers, for Windows users, on the `Menu bar`, click `Tools` > `Preferences` and check `Show Line Numbers`. 
 - For Mac users, on the `Menu bar`, click `NetLogo` > `Preferences` and check `Show Line Numbers`. 
 
-![](statics/life3.png)
+   ![](statics/life3.png)
 
 6. In line 5-7, `living?` and `live-neighbors` are the properties/attributes that patches own. 
 - Go back to the `Interface` tab and try right-clicking on one of the patches. You can right click on a random grid cell (patch) and see the patch properties.
 
-![](statics/life4.png)
-![](statics/life5.png)
+   ![](statics/life4.png)
+   ![](statics/life5.png)
 
 - Back to the 'Code' tab, in line 12, `ask patches [ cell-death ]` means to [ask](http://ccl.northwestern.edu/netlogo/docs/dict/ask.html){:target="_blank"} patches to run the `[ cell-death ]` command. 
 - In line 30, `[ cell-death ]` command sets the patch property `living?` as false, and sets patch color as foreground color. `[ cell-birth ]` command does the opposite.
 
-![](statics/life6.png)
+   ![](statics/life6.png)
 
 7. Line 16-23 dictates the `setup-random` command.
 - Line 18 means "ask patches to run the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"} command. ifelse commands are very important in language-based rules. 
@@ -63,7 +63,7 @@ Note: Recommend having this teaching material on one side of the screen and your
 - This part makes each cell to check the state of itself.
 - Note: You can refer to [NetLogo Dictionary](http://ccl.northwestern.edu/netlogo/docs/index2.html){:target="_blank"} when trying to understand the codes. For example, [random-float](http://ccl.northwestern.edu/netlogo/docs/dict/random-float.html){:target="_blank"}.
 
-![](statics/life7.png)
+   ![](statics/life7.png)
 
 8. Line 35-48 dictates the `go` command.
 - Line 36-37 means "set the patch property `live-neighbors` to `the number of neighboring cells that are alive`". 
@@ -76,7 +76,7 @@ Note: Recommend having this teaching material on one side of the screen and your
 
 ### Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. 
 
-![](statics/life8.png)
+   ![](statics/life8.png)
 
 Rules can be summarised as the four points below. 
 1. If there is exactly 3 alive neighbors, the cell becomes alive. (birth)
@@ -90,7 +90,7 @@ Rules can be summarised as the four points below.
 
 ### Q1-2. Explain how these three lines of code can be shortened to line 43-46 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
 
-![](statics/life9.png)
+   ![](statics/life9.png)
 
 ### Q2. In line 37, try changing `neighbors` to `neighbors4` and run the model. Observe and explain how this change affects the simulation. (Refer to [neighbors4](http://ccl.northwestern.edu/netlogo/docs/dict/neighbors.html).)
 
@@ -104,7 +104,7 @@ to zombie-birth
 end
 ```
 
-![](statics/life10.png)
+   ![](statics/life10.png)
 
 ### Q4. Let's add `zombie-birth` in the `to go` command. Add the following lines before `tick`. Run the model and explain how this change affects the simulation.
  - This rule runs the same ifelse command but this time for `zombie-birth`, on the 1,000 randomly chosen patches (Refer to [n-of](http://ccl.northwestern.edu/netlogo/docs/dict/n-of.html)).
@@ -116,7 +116,7 @@ ask n-of 1000 patches
     [if live-neighbors != 2
       [ cell-death ] ] ]
 ```         
-![](statics/life11.png)
+   ![](statics/life11.png)
 
 - Note: If you don't see green zombie cells appearing, change the `neighbors4` back to `neighbors` under `to go` command and set the initial-density back to 35% in the `interface` so that cells don't die out too quickly.
 
@@ -126,8 +126,8 @@ ask n-of 1000 patches
 1. `File` > `Models Library` > `Biology` > `Wolf Sheep Predation`.
 - This is a good example of observing how moving agents (called 'turtles' in NetLogo) and stational agetns (called patches in NetLogo) interact.
 
-![](statics/Sup2_wolfsheep1.PNG)
-![](statics/Sup2_wolfsheep2.PNG)
+   ![](statics/Sup2_wolfsheep1.PNG)
+   ![](statics/Sup2_wolfsheep2.PNG)
 
 ## Example 2: Wolf Sheep Predation Questions (10min): 
 - We will go through these together.
