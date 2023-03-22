@@ -72,7 +72,7 @@ Note: Recommend having this teaching material on one side of the screen and your
 
 ## Example 1: Game of Life Questions (10min):
 - Please write all your answers in a notepad (paper or laptop). We will go through the answers together.
-- Go through at your own pace. If you don't manage to go through all Qs, you can resume in the final session (5pm). If you finish quickly, feel free to start [[Exercise 4]](./exercise4.md){:target="_blank"}.
+- Go through at your own pace. If you don't manage to go through all Qs, you can resume in the final session (5pm). If you finish quickly, there are more exercises on Game of Life in [[Extra Exercise]](./exercise4.md){:target="_blank"}.
 
 ### Q1. Click the `Info` tab below the `Menu bar`. Under `HOW IT WORKS`, you can find the rules of the game. 
 
@@ -143,3 +143,5 @@ ask n-of 1000 patches
 ### Q3. Currently, one more important agent of the ecosystem is missing - grass.
 - Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
 - How does including grass in the model affect the sheep and wolf population?
+
+If you are interested, there are more exercises on Wolf Sheep Predation in [[Extra Exercise]](./exercise4.md){:target="_blank"}.
