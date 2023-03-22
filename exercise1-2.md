@@ -66,6 +66,7 @@
 
    ![](statics/newforest7.png)
 
-12. 
+12. Right-click on the `Rasterized` layer. 
 
+   ![](statics/newforest8.png)
 
