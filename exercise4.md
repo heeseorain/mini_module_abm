@@ -14,3 +14,4 @@
 ## Wolf Sheep Predation
 ### Q. Have a read of the `Code` tab. Try putting into your own words (briefly is fine) the structure of the model.
 
+![](statics/wolfsheep3.PNG)
