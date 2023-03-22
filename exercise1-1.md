@@ -19,6 +19,9 @@ Note: Recommend having this teaching material on one side of the screen and your
 ## Download and install NetLogo
 - Please download and install `NetLogo (6.2.1)` according to your platform (for Windows, download 64-bit): [NetLogo Download Page](https://ccl.northwestern.edu/netlogo/6.2.1/){:target="_blank"}.
 
+## Working directory
+- Make a folder (e.g. call it "mini_module_abm") in your preferred location and save all the files there throughout today.
+
 ## Example 1: Game of Life and understanding NetLogo codes (10min)
 - Go through at your own pace.
 
