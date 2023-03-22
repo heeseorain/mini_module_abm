@@ -67,6 +67,20 @@
    ![](statics/newforest7.png)
 
 12. Right-click on the `Rasterized` layer. 
+- In the `Information` tab, you can check that the `Pizel Size` is 40, -40. 
+- Also, it says `Dimensions`as `X: 232 Y:220`. This means there are 232 grid cells on the X-axis and 220 grid cells on the Y axis. What do you think the dimension is in metre?
+- 232*40m * 220*40m = 9,280m * 8,800m. 
 
    ![](statics/newforest8.png)
+   
+13. Let's check on the Google Maps [New Forest District](https://www.google.com/maps/place/New+Forest+District/){:target="_blank"}. 
+- Zoom into our case area and right-click > `Measure distance`.
+- You can see that our raser map is accurate. Sense-cheking like this is very useful and important.
+- So then, what is the number of grid cells that we're dealing with as a simple XY measurement?
+- 232 * 220 = 51,040 of 40*40m grid cells.
+
+   ![](statics/newforest9.png)
+
+
+
 
