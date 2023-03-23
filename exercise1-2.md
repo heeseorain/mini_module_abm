@@ -166,17 +166,18 @@
 2. Open the file `22mar2023_isobenefit_new_forest_hrkwon.nlogo`.
 - Click `Setup`. You will see an error message that the asc file is not found.
 - You can see in the code that we're trying to run `gis:load-dataset` and load `ward_40m.asc` in the `data` folder.
-- If you scroll up 
-- - We will explore this model a bit more in the next session. For now, we will load the raster data we generated from QGIS.
+- If you scroll to the top of the page, you will see `extensions [gis]`. Note that we are using the gis extension within NetLogo to load our raster files. (For more information: [NetLogo GIS Extension](https://ccl.northwestern.edu/netlogo/docs/gis.html
+){:target="_blank"}.)
+- We will explore this model a bit more in the next session. For now, we will load the raster data we generated from QGIS.
 
    ![](statics/newforest_nlogo1.png)
+   ![](statics/newforest_nlogo2.png)
 
 3. In your `22mar2023_isobenefit_new_forest_hrkwon` folder, open the `data` folder.
 - Copy-paste here the `ward_40m.asc` and `wat_tra_par_gre_lo_me_hi_cen_40m.asc` you generated.
 
-- We will go through this model in a bit more detail
 
-   ![](statics/newforest_nlogo2.png)
+
 
     set ward_dataset gis:load-dataset "data/ward_40m.asc"
     set wat_tra_par_gre_lo_me_hi_cen_dataset gis:load-dataset "data/wat_tra_par_gre_lo_me_hi_cen_40m.asc"
