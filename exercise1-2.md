@@ -209,7 +209,7 @@
 - Click `show_nature_corridor`.
   - This is a buffer zone I made on QGIS around the major water network. This is used in this model to prevent urban growth in this area under the scenario `build_on_green_keep_nature_corridor` which you can select on the top-left corner of the model.
   - Right-click on any of the nature corridor patches and click `Inspect patch`. The patch property `nature_corridor` is 1. (0=no, 1=yes)
-  - We will revisit this model in the next session. Let's finish this session with a quick quiz.
+  - We will revisit this model in the next session. Let's finish this session with a quick quiz!
 
    ![](statics/newforest_nlogo5.png)
  
