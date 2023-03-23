@@ -74,8 +74,7 @@
    ![](statics/newforest8.png)
    
 13. Let's check on the Google Maps [New Forest District](https://www.google.com/maps/place/New+Forest+District/){:target="_blank"}. 
-- Zoom into our case area and right-click > `Measure distance`.
-- You can see that our raser map is accurate. Sense-cheking like this is very useful and important.
+- Zoom into our case area and right-click > `Measure distance` to roughly check whether our raster map makes sense. Sense-cheking like this is very useful and important.
 - So then, what is the number of grid cells that we're dealing with as a simple XY measurement?
 - 232 * 220 = 51,040 of 40*40m grid cells.
 
