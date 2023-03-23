@@ -161,3 +161,23 @@
 
 ### Example 2: Loading raster data on NetLogo for an urban growth model (10min)
 
+1. Download the NetLogo file of the Isobenefit Urbanism model reimplemented by Dr Kwon: [22mar2023_isobenefit_new_forest_hrkwon.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/22mar2023_isobenefit_new_forest_hrkwon.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
+- This is a simplified version of the current model in development prepared for this mini-module. Please use it for your learning for this class. Please do not distribute. If you wish to cite this model, please ask Dr Kwon how to do so (heeseo.kwon.10@ucl.ac.uk).
+
+2. Open the file `22mar2023_isobenefit_new_forest_hrkwon.nlogo`.
+- Click `Setup`. You will see an error message that the asc file is not found.
+- You can see in the code that we're trying to run `gis:load-dataset` and load `ward_40m.asc` in the `data` folder.
+- If you scroll up 
+- - We will explore this model a bit more in the next session. For now, we will load the raster data we generated from QGIS.
+
+   ![](statics/newforest_nlogo1.png)
+
+3. In your `22mar2023_isobenefit_new_forest_hrkwon` folder, open the `data` folder.
+- Copy-paste here the `ward_40m.asc` and `wat_tra_par_gre_lo_me_hi_cen_40m.asc` you generated.
+
+- We will go through this model in a bit more detail
+
+   ![](statics/newforest_nlogo2.png)
+
+    set ward_dataset gis:load-dataset "data/ward_40m.asc"
+    set wat_tra_par_gre_lo_me_hi_cen_dataset gis:load-dataset "data/wat_tra_par_gre_lo_me_hi_cen_40m.asc"
