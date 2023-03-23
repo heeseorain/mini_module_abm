@@ -104,8 +104,7 @@
   - 2=principle transport (main road/rail)
   - 3=green (including uses that could be built on e.g., farms, industrial areas)
   - 4=low-density residential with amenities (suburbs and small villages / hamlets)
-  - 5=medium-density residential with high streets and amenities
-  - (including medium-density buildings of various use and retail parks)
+  - 5=medium-density residential with high streets and amenities (including medium-density buildings of various use and retail parks)
   - 6=high-density residential with retail and commercial sites
   - 7=centrality (i.e., town/city centre)
 
