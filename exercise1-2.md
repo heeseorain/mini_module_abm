@@ -199,7 +199,7 @@
   - 8=centrality (i.e., town/city centre)
 - Which district (ward) does this patch belong to?
 
-   ![](statics/newforest_nlogo3.png)
+   ![](statics/newforest_nlogo4.png)
    
 6. Let's look at other GIS data. 
 - On the left hand side of the model, click `show_district`.
@@ -211,6 +211,6 @@
   - Right-click on any of the nature corridor patches and click `Inspect patch`. The patch property `nature_corridor` is 1. (0=no, 1=yes)
   - We will revisit this model in the next session. Let's finish this session with a quick quiz.
 
-   ![](statics/newforest_nlogo4.png)
+   ![](statics/newforest_nlogo5.png)
  
 ### Quiz in a group (5min)
