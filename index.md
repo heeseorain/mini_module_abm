@@ -17,10 +17,11 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 
 |Lecture|Topic|Lecturer|
 |---|---|---:|
-|Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon| 
-|Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on QGIS for an urban growth model [[Exercise 1-1]](./exercise1-1.md)[[Exercise 1-2]](./exercise1-2.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
+|Lecture 1 (1-1:20pm)|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon| 
+|Software exercise 1 (1:20-2:20pm)|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), preparing spatial input data on QGIS for an urban growth model [[Exercise 1-1]](./exercise1-1.md)[[Exercise 1-2]](./exercise1-2.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
 |Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |Software exercise 2|Language change model [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|Lecture 3|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |Lecture 3|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |Software exercise 3|Using CSV extension to load turtles, preparing and loading NHS disease prevalence data [[Exercises]](./___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |Lecture 4|Summary of the module learnings and time for further individual questions and extra exercises |Dr Heeseo Rain Kwon|
