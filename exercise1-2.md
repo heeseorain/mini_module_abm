@@ -98,14 +98,15 @@
 
 17. We want to turn this land use map into a raster file.
 - Right-lick on `ukland_4841866_milford_lymington` > `Attribute Table`.
-- I've already createde a field `wat_tra_pa` and assigned values from 1 to 7 to represent the land use classification most useful for my Isobenefit Urbanism model.
+- I've already createde a field `wat_tra_pa` and assigned values from 1 to 8 to represent the land use classification most useful for my Isobenefit Urbanism model.
   - 1=water bodies
   - 2=principle transport (main road/rail)
-  - 3=green (including uses that could be built on e.g., farms, industrial areas)
-  - 4=low-density residential with amenities (suburbs and small villages / hamlets)
-  - 5=medium-density residential with high streets and amenities (including medium-density buildings of various use and retail parks)
-  - 6=high-density residential with retail and commercial sites
-  - 7=centrality (i.e., town/city centre)
+  - 3=park (recreational land)
+  - 4=green (including uses that could be built on e.g., farms, industrial areas)
+  - 5=low-density residential with amenities (suburbs and small villages / hamlets)
+  - 6=medium-density residential with high streets and amenities (including medium-density buildings of various use and retail parks)
+  - 7=high-density residential with retail and commercial sites
+  - 8=centrality (i.e., town/city centre)
 
    ![](statics/newforest12.png)
 
@@ -180,16 +181,36 @@
 - Right-click on the map anywhere and click `Edit`. 
 - Is the 'World' of this NetLogo model same as our QGIS raster files?
 - How many grid cells are there?
-- In the `Command Center`, type `show count patches` and press `Enter`. How many patches are there? Is this in line with our raster file?
+- In the `Command Center`, type `show count patches` and press `Enter`. How many patches are there? Is this in line with our QGIS raster file?
 - Note: In the `View` tab, `Patch size` is for how large you want to see the map on your screen. It has nothing to do with our raster file being in 40*40m grid cells.
 - Click `OK` and click any of the blank white space in the NetLogo interface.
 
    ![](statics/newforest_nlogo3.png)
 
-5. 
+5. Right-click on a random patch and click `inspect patch`.
+- Is the number value of the land use showing accurately in the property `wat_tra_par_gre_lo_me_hi_cen`?
+  - 1=water bodies
+  - 2=principle transport (main road/rail)
+  - 3=park (recreational land)
+  - 4=green (including uses that could be built on e.g., farms, industrial areas)
+  - 5=low-density residential with amenities (suburbs and small villages / hamlets)
+  - 6=medium-density residential with high streets and amenities (including medium-density buildings of various use and retail parks)
+  - 7=high-density residential with retail and commercial sites
+  - 8=centrality (i.e., town/city centre)
+- Which district (ward) does this patch belong to?
 
-    set ward_dataset gis:load-dataset "data/ward_40m.asc"
-    set wat_tra_par_gre_lo_me_hi_cen_dataset gis:load-dataset "data/wat_tra_par_gre_lo_me_hi_cen_40m.asc"
-    
- ### Quiz in a group (5min)
+   ![](statics/newforest_nlogo3.png)
+   
+6. Let's look at other GIS data. 
+- On the left hand side of the model, click `show_district`.
+  - Is this the same as the ward raster file we made on QGIS? 
+- Click `show_land_use` to load see the land use map again. Click `show_road` and `show_watercourse`.
+  - These are vector files that I've loaded on this model already. These vector files are not connected to patch properties (raster files are more useful for this purpose). Currently, these vector files are here for illustrative purpose to aid the user to see the existing road and water network.
+- Click `show_nature_corridor`.
+  - This is a buffer zone I made on QGIS around the major water network. This is used in this model to prevent urban growth in this area under the scenario `build_on_green_keep_nature_corridor` which you can select on the top-left corner of the model.
+  - Right-click on any of the nature corridor patches and click `Inspect patch`. The patch property `nature_corridor` is 1. (0=no, 1=yes)
+  - We will revisit this model in the next session. Let's finish this session with a quick quiz.
 
+   ![](statics/newforest_nlogo4.png)
+ 
+### Quiz in a group (5min)
