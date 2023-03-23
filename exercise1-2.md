@@ -158,7 +158,7 @@
 
 ### Quiz in a group (5min)
 
-### Example 2: Loading raster data on NetLogo for an urban growth model (10min)
+### Example 2: Loading raster data on NetLogo for an urban growth model (5min)
 
 1. Download the NetLogo file of the Isobenefit Urbanism model reimplemented by Dr Kwon: [22mar2023_isobenefit_new_forest_hrkwon.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/22mar2023_isobenefit_new_forest_hrkwon.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
 - This is a simplified version of the current model in development prepared for this mini-module. Please use it for your learning for this class. Please do not distribute. If you wish to cite this model, please ask Dr Kwon how to do so (heeseo.kwon.10@ucl.ac.uk).
@@ -176,8 +176,20 @@
 3. In your `22mar2023_isobenefit_new_forest_hrkwon` folder, open the `data` folder.
 - Copy-paste here the `ward_40m.asc` and `wat_tra_par_gre_lo_me_hi_cen_40m.asc` you generated.
 
+4. On NetLogo, try clicking `Setup` again. You will see the land use map that we made on QGIS.
+- Right-click on the map anywhere and click `Edit`. 
+- Is the 'World' of this NetLogo model same as our QGIS raster files?
+- How many grid cells are there?
+- In the `Command Center`, type `show count patches` and press `Enter`. How many patches are there? Is this in line with our raster file?
+- Note: In the `View` tab, `Patch size` is for how large you want to see the map on your screen. It has nothing to do with our raster file being in 40*40m grid cells.
+- Click `OK` and click any of the blank white space in the NetLogo interface.
 
+   ![](statics/newforest_nlogo3.png)
 
+5. 
 
     set ward_dataset gis:load-dataset "data/ward_40m.asc"
     set wat_tra_par_gre_lo_me_hi_cen_dataset gis:load-dataset "data/wat_tra_par_gre_lo_me_hi_cen_40m.asc"
+    
+ ### Quiz in a group (5min)
+
