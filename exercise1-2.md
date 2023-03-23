@@ -89,6 +89,26 @@
    ![](statics/newforest10.png)
    
 15. In the `Layers` box, right-click on `ukland_4841866_milford_lymington` and click `Properties`.
+- In the `Symbology` tab, select `Categorized` and `landuse_te`.
+- Click `Classify` and `OK`.
+
+   ![](statics/newforest10.png)
+
+16. In the `Layers` box, Click the arrow on the left of `ukland_4841866_milford_lymington`. You will see the land use information colour-coded.
+- FYI: You can of course change the colour, join a few land use categories together etc.
+
+17. We want to turn this land use map into a raster file.
+- Right-lick on `ukland_4841866_milford_lymington` > `Attribute Table`.
+- I've already assigned values from 1 to 7 to represent the following:
+  - 1=water bodies
+  - 2=principle transport (main road/rail)
+  - 3=green (including uses that could be built on e.g., farms, industrial areas)
+  - 4=low-density residential with amenities (suburbs and small villages / hamlets)
+  - 5=medium-density residential with high streets and amenities
+  - (including medium-density buildings of various use and retail parks)
+  - 6=high-density residential with retail and commercial sites
+  - 7=centrality (i.e., town/city centre)
+
 
 ### Quiz in a group (5min)
 
