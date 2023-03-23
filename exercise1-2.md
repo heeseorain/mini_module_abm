@@ -56,7 +56,7 @@
 - Output raster size units: `Georeferenced units`
 - Width/Horizontal resolution: `40`
 - Height/Vertical resolution: `40`
-- Output extent: Click the `X` button on the right to make it `Not set`.
+- Output extent: Leave it as `Not set`.
 - Assign a specified nodata vlaue to output bands: Click the `X` button on the right to make it `Not set`.
 
    ![](statics/newforest6.png)
@@ -92,14 +92,14 @@
 - In the `Symbology` tab, select `Categorized` and `landuse_te`.
 - Click `Classify` and `OK`.
 
-   ![](statics/newforest10.png)
+   ![](statics/newforest11.png)
 
 16. In the `Layers` box, Click the arrow on the left of `ukland_4841866_milford_lymington`. You will see the land use information colour-coded.
 - FYI: You can of course change the colour, join a few land use categories together etc.
 
 17. We want to turn this land use map into a raster file.
 - Right-lick on `ukland_4841866_milford_lymington` > `Attribute Table`.
-- I've already assigned values from 1 to 7 to represent the following:
+- I've already createde a field `wat_tra_pa` and assigned values from 1 to 7 to represent the land use classification most useful for my Isobenefit Urbanism model.
   - 1=water bodies
   - 2=principle transport (main road/rail)
   - 3=green (including uses that could be built on e.g., farms, industrial areas)
@@ -108,7 +108,56 @@
   - 6=high-density residential with retail and commercial sites
   - 7=centrality (i.e., town/city centre)
 
+   ![](statics/newforest12.png)
+
+18. Same as before, we will use the field `wat_tra_pa` to rasterize this vector data. On the QGIS menu bar, click `Raster` > `Conversion` > `Rasterize (Vector to Raster)`.
+   
+19. In the `Parameters`, put the following, click `Run` and click `Close`.
+- Input layer: `ukland_4841866_milford_lymington`
+- Field to use for a burn-in value: `wat_tra_pa`
+- A fixed value to burn: Click the `X` button on the right to make it `Not set`.
+- Output raster size units: `Georeferenced units`
+- Width/Horizontal resolution: `40`
+- Height/Vertical resolution: `40`
+- Output extent: Leave it as `Not set`.
+- Assign a specified nodata vlaue to output bands: Click the `X` button on the right to make it `Not set`.
+
+   ![](statics/newforest13.png)
+
+20. Same as before, try clicking the `Identify Features` icon on the QGIS menu bar and to check whether the number values are assigned accurately on the raster map.
+
+21. These `Rasterized` files are temporary files on QGIS at the moment so we need to save them.
+- In the `Layers` box, right-click the raster layer generated from `ward_milford_lymington` > `Export` > `Save As`.
+- Name the file `ward_40m.tif` and save it in your working directory.
+
+   ![](statics/newforest14.png)
+
+22. Repeating the same procedure, right-click the raster layer generated from `ukland_4841866_milford_lymington` > `Export` > `Save As`.
+- Name the file `wat_tra_par_gre_lo_me_hi_cen_40m.tif` and save it in your working directory.
+- Note: I've already cookie-cutted the land use vector file to the same extent as the boundary vector file so they rasterize with the same extent. If you want to  prepare raster files from vector files for your own use using different data, remember that having the extent identical for the raster files is important for the the grid cells to align when loaded on NetLogo.
+- Remove the `Rasterized` layers as we have already saved them.
+
+   ![](statics/newforest15.png)
+
+23. Another raster file type, `asc` works well in NetLogo. We will convert the `tif` files to `asc` files.
+- Click on `ward_40m`. On the QGIS menu bar, click `Raster` > `Conversion` > `Translate (Convert Format)`.
+- Click the arrow icon on the right of the `[Save to temporary file]` and click `Save to File`.
+- Name the file `ward_40m.asc` and save it in your working directory. 
+- Click `Run` and then `Close`.
+
+   ![](statics/newforest16.png)
+   ![](statics/newforest17.png)
+   
+24. Repeating the same procedure, click on `wat_tra_par_gre_lo_me_hi_cen_40m`. On the QGIS menu bar, click `Raster` > `Conversion` > `Translate (Convert Format)`.
+- Click the arrow icon on the right of the `[Save to temporary file]` and click `Save to File`.
+- Name the file `wat_tra_par_gre_lo_me_hi_cen_40m.asc` and save it in your working directory. 
+- Click `Run` and then `Close`.
+
+   ![](statics/newforest18.png)
+
+23. Now we have two asc files prepared to be loaded on NetLogo!
 
 ### Quiz in a group (5min)
 
 ### Example 2: Loading raster data on NetLogo for an urban growth model (10min)
+
