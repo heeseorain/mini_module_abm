@@ -22,9 +22,9 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 |2-2:15pm| Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |2:15-2:30pm| Software exercise 2|Introduction to NetLogo: Language change model and contact tracing [[Exercises]](./exercise2.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |2:40-3pm| Lecture 3|Isobenefit urbanism morphogenesis: Using ABM to simulate future urban growth of 15-minute neighbourhoods [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
-|3-3:40pm| Software exercise 3|Preparing spatial input data on QGIS for an urban growth model and using GIS extension to load on NetLogo  [[Exercises]](./exercise3.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|3-3:40pm| Software exercise 3|Using QGIS with NetLogo: Preparing spatial input data on QGIS for an urban growth model loading on NetLogo [[Exercises]](./exercise3.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |3:50-4:30pm| Lecture 4|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: Healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
-|4:30-4:50pm| Software exercise 4|Using CSV extension to link census data with turtles and preparing spatial data of NHS disease prevalence on QGIS and loading on NetLogo [[Exercises]](./exercise4.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|4:30-4:50pm| Software exercise 4|Using QGIS and Excel with NetLogo: Linking census data with turtles, preparing spatial data of NHS disease prevalence on QGIS and loading on NetLogo [[Exercises]](./exercise4.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |4:50-5pm| Wrap-up|Summary of the module learnings [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |5-6pm| Optional: Time for further individual questions and extra software exercises|SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 
