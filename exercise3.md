@@ -1,11 +1,12 @@
-# Software exercise 3: Using QGIS with NetLogo (30 minutes)
+# Software exercise 3: Using QGIS with NetLogo (40 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
 ## Download and install QGIS
 - Please download and install `QGIS 3.28 LTR` according to your platform: [QGIS Download Page](https://www.qgis.org/en/site/forusers/download.html#){:target="_blank"}.
 
 ### Example 1: Preparing spatial input data on QGIS for an urban growth model (15min)
-- As an example of an urban growth model, we will use [Isobenefit Urbanism morphogenesis](https://www.sciencedirect.com/science/article/pii/S0301479719307571){:target="_blank"} currently being reimplemented by Dr Heeseo Rain Kwon (2023) as part of a project led by Dr Tommaso Gabrieli at UCL. 
+- Go through at your own pace.
+- As an example of an urban growth model, we will use [Isobenefit Urbanism morphogenesis](https://www.sciencedirect.com/science/article/pii/S0301479719307571){:target="_blank"} currently being reimplemented by Dr Heeseo Rain Kwon (2023) as part of a project led by Dr Tommaso Gabrieli at UCL. (You would have received introduction to this model in the lecture right before this exercise).
 - We will use data of a small part of [New Forest District](https://www.google.com/maps/place/New+Forest+District/){:target="_blank"} which includes Milford on Sea and Lymington.
 
 1. Download boundary map of the case area: [ward_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/ward_milford_lymington.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
@@ -159,7 +160,8 @@
 
 ### Quiz in a group (5min)
 
-### Example 2: Loading raster data on NetLogo for an urban growth model (5min)
+### Example 2: Loading raster data on NetLogo for an urban growth model (10min)
+- Go through at your own pace.
 
 1. Download the NetLogo file of the Isobenefit Urbanism model reimplemented by Dr Kwon: [22mar2023_isobenefit_new_forest_hrkwon.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/22mar2023_isobenefit_new_forest_hrkwon.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
 - This is a simplified version of the current model in development prepared for this mini-module. Please use it for your learning for this class. Please do not distribute. If you wish to cite this model, please ask Dr Kwon how to do so (heeseo.kwon.10@ucl.ac.uk).
@@ -212,5 +214,50 @@
   - We will revisit this model in the next session. Let's finish this session with a quick quiz!
 
    ![](statics/newforest_nlogo5.png)
- 
+
+7. Put the `scenario` as `build_on_green_keep_nature_corridor` and click `go` (the top one).
+- What do you see happening?
+- Click `go` (the top one) multiple times.
+  - At around tick 10, you will see a new centrality (white) forming.
+- What do you think the light orange, orange and dark orange cells represent?
+  - Press `Ctrl + F` to find `show_land_use` and you'll see the answer.
+  
+   ![](statics/newforest_nlogo6.png)
+   
+8. How do you think the `total_population` monitor is being calculated?
+  - Right-click on it and click `Edit` to see the command.
+  - Let's see how `total_population` gets calculated in the `Code` tab.
+    - Find `set total_population`. How do you think this connects with the bars `low_pop_density_40m_40m`, `med_pop_density_40m_40m` and `high_pop_density_40m_40m` in the model `Interface`?
+    - `high_pop_density_40m_40m = 12` means that 12 people live in a 40*40m grid cell in a high-density residential/built area. This roughly makes sense for this case area, but how we want to define population density for low, medium and high will be different for different cities (e.g. We can set `high_pop_density_40m_40m` a lot higher for cities with many high-rise apartments).
+  
+   ![](statics/newforest_nlogo7.png)
+   ![](statics/newforest_nlogo8.png)   
+   
+9. How do you think `built_near_nature_and_centrality (%)` is calculated?
+  - Right-click on it and click `Edit` to see the command.
+  - Go to the `Code` tab and find `to setup_near_nature_cluster`.
+    - How is `near_nature_cluster` calculated and what does this mean?
+  - What does this metric `built_near_nature_and_centrality (%)` indicate? Why is this an important metric in this model along with total population?
+  
+   ![](statics/newforest_nlogo9.png)
+   ![](statics/newforest_nlogo10.png)  
+
+7. Right-click on any of the grey or orange patches.
+  - Is this built area near nature cluster and/or centrality?
+
+   ![](statics/newforest_nlogo11.png)
+
+8. In the `Command Centre`, write `ask patches with [near_nature_cluster = 1] [set pcolor yellow]` and press `Enter`.
+- All built cells are within 1km of nature clusters.
+
+   ![](statics/newforest_nlogo12.png)
+
+9. Click `show_land_use` to see the land use map again. In the `Command Centre`, write `ask patches with [near_centrality = 1] [set pcolor yellow]` and press `Enter`.
+- All built cells are within 1km of nature clusters. 
+  - Note: The patches that got built at the last iteration (tick) hasn't had the near_nature calculation yet so is not yet showing as yellow (this value will be updated in the next iteration/tick). But they are within 1km of nature as you can see in the map.
+- What do you think you can ask in the Command Center to see the % of built areas that are within 1km of centrality?
+  - Try entering this `count patches with [near_centrality = 1] / count patches with [low_den_built = 1 or med_den_built = 1 or high_den_built = 1] * 100`.
+
+   ![](statics/newforest_nlogo13.png)
+
 ### Quiz in a group (5min)
