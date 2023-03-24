@@ -265,7 +265,7 @@ search_exclude: true
 9. Click `show_land_use` to see the land use map again. In the `Command Centre`, write `ask patches with [near_centrality = 1] [set pcolor yellow]` and press `Enter`.
 - All built cells are within 1km of nature clusters. 
   - Note: The patches that got built at the last iteration (tick) hasn't had the near_nature calculation yet so is not yet showing as yellow (this value will be updated in the next iteration/tick). But they are within 1km of nature as you can see in the map.
-- What do you think you can ask in the Command Center to see the % of built areas that are within 1km of centrality?
+- What do you think you can ask in the `Command Center` to see the % of built areas that are within 1km of centrality?
   - Try entering this `count patches with [near_centrality = 1] / count patches with [low_den_built = 1 or med_den_built = 1 or high_den_built = 1] * 100`.
 
    ![](statics/newforest_nlogo13.png)
