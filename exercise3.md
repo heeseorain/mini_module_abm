@@ -1,3 +1,13 @@
+---
+title: "Software exercise 3"
+nav_order: 5
+nav_exclude: false
+search_exclude: true
+---
+
+<button class="btn js-toggle-dark-mode">Dark color scheme</button>
+
+<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 # Software exercise 3: Using QGIS with NetLogo (40 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
@@ -160,7 +170,7 @@
 
 ### Quiz in a group (5min)
 
-### Example 2: Loading raster data on NetLogo for an urban growth model (10min)
+### Example 2: Loading raster data on NetLogo for an urban growth model and exploring the model (15min)
 - Go through at your own pace.
 
 1. Download the NetLogo file of the Isobenefit Urbanism model reimplemented by Dr Kwon: [22mar2023_isobenefit_new_forest_hrkwon.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/22mar2023_isobenefit_new_forest_hrkwon.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
