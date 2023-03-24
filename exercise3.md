@@ -1,4 +1,4 @@
-# Software exercise 1-2: Using QGIS with NetLogo (30 minutes)
+# Software exercise 3: Using QGIS with NetLogo (30 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
 ## Download and install QGIS
