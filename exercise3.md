@@ -270,4 +270,4 @@ search_exclude: true
 
    ![](statics/newforest_nlogo13.png)
 
-### Quiz in a group (5min)
+### Quiz in a group (5min) 
