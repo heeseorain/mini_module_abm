@@ -57,5 +57,15 @@ search_exclude: true
 - Go through at your own pace.
 
 1. [create-links-with](https://ccl.northwestern.edu/netlogo/bind/primitive/create-links-with.html){:target="_blank"} [link-neighbors](https://ccl.northwestern.edu/netlogo/bind/primitive/link-neighbors.html){:target="_blank"} and [my-links](http://ccl.northwestern.edu/netlogo/docs/dict/my-links.html){:target="_blank"} can be used to simulate contact tracing.
-- 
+- Read over these three pages and play with the model. 
+- Try clicking `go once` several times to really see when and how the links get formed.
+- What would be some use cases of the `links` feature?
+
+   ![](statics/contact1.png)
+   ![](statics/contact2.png)
+
+2. [Biginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/){:target="_blank"} is a very useful resource to learn more. 
+- If you want to learn more, I recommend exploring this in your own time.
+
+   ![](statics/contact3.png)
 
