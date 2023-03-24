@@ -9,7 +9,7 @@ search_exclude: true
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 
-# Software exercise 1-1: Introducing NetLogo (30 minutes)
+# Software exercise 1: Introducing NetLogo (30 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
 
 Note: Recommend having this teaching material on one side of the screen and your activity on the other side.
