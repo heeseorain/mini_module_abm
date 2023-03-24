@@ -18,7 +18,7 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 |Time|Lecture|Topic|Lecturer|
 |---|---|---|---:|
 |1-1:20pm| Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: focusing on CA and ABM [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon| 
-|Software exercise 1 (1:20-1:50pm)|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), [[Exercises]](./exercise1-1.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
+|1:20-1:50pm| Software exercise 1|Introduction to NetLogo (game of life, wolf-sheep-grass predation model), [[Exercises]](./exercise1-1.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
 |2-2:15pm| Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |2:15-2:30pm| Software exercise 2|Language change model [[Exercises]](./exercise2.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |2:40-3pm| Lecture 3|Isobenefit urbanism morphogenesis: Using ABM to simulate future urban growth of 15-minute neighbourhoods [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
@@ -26,7 +26,7 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 |3:50-4:30pm| Lecture 4|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |4:30-4:50pm| Software exercise 4|Using CSV extension to load turtles, preparing and loading NHS disease prevalence data [[Exercises]](./exercise4.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |4:50-5pm| Lecture 5|Summary of the module learnings [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
-|5-6pm| Optional-Time for further individual questions and extra software exercises|SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|5-6pm| Optional: Time for further individual questions and extra software exercises|SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 
 ### Contributors
 The teaching materials are created by Dr Heeseo Rain Kwon.
