@@ -32,9 +32,9 @@ search_exclude: true
 - Have a look at the code. What do you think we're trying to do here?
 
    ```
-to read_2011_residents_from_csv
-  file-close-all ; close all open files
-  file-open "data/3624_turtles_2011_new_forest.csv" ; open the file with the turtle data
+   to read_2011_residents_from_csv
+     file-close-all ; close all open files
+     file-open "data/3624_turtles_2011_new_forest.csv" ; open the file with the turtle data
 
   ; We'll read all the data in a single loop
   while [ not file-at-end? ] [
