@@ -141,7 +141,7 @@ search_exclude: true
      live_near_work_2011 ;; wpzhome. Place of work. Comparison of where you live and work. 1=works at home,
           ;; 2=lives in same workplace zone/LGD as workplace, 3=lives outside zone, but within same LA/UA/district
           ;; 4=lives outside LA/UA/LGD area of workplace but within UK, 5=workplace outside UK
-  workplace_2011 ;; wrkplaceew. 1=no fixed place. 2=work mainly at/from home, 3=inside LA area of residence, 4=outsidce LA area but inside GB
+     workplace_2011 ;; wrkplaceew. 1=no fixed place. 2=work mainly at/from home, 3=inside LA area of residence, 4=outsidce LA area but inside GB
           ;; 5=Northern Ireland, 6=outside UK
    ]
    ```
