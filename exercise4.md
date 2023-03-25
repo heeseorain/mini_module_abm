@@ -31,7 +31,7 @@ search_exclude: true
 5. Insert the following code at the very bottom.
 - Have a look at the code. What do you think we're trying to do here?
 
-```
+   ```
 to read_2011_residents_from_csv
   file-close-all ; close all open files
   file-open "data/3624_turtles_2011_new_forest.csv" ; open the file with the turtle data
@@ -79,7 +79,7 @@ to read_2011_residents_from_csv
       or wat_tra_par_gre_lo_me_hi_cen = 6 or wat_tra_par_gre_lo_me_hi_cen = 7]] ;; to residential patches.
 file-close ; make sure to close the file
 end
-```
+   ```
 
    ![](statics/census2.png)
 
@@ -92,7 +92,7 @@ end
 
 7. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
 
-```
+   ```
 ; ##################################################################
 ; Turtle attributes
 ; ##################################################################
@@ -144,7 +144,7 @@ turtles-own[
   workplace_2011 ;; wrkplaceew. 1=no fixed place. 2=work mainly at/from home, 3=inside LA area of residence, 4=outsidce LA area but inside GB
        ;; 5=Northern Ireland, 6=outside UK
 ]
-```
+   ```
 
 7. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
 - We can simply put this in the `Command Center` and press `Enter`.
