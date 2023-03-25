@@ -11,6 +11,7 @@ search_exclude: true
 
 # Software exercise 4: Using QGIS and Excel with NetLogo (20 minutes)
 ### Teaching materials are prepared by Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk). 
+- You would have received introduction to using census and health data with NetLogo in the lecture right before this exercise. This exercise will give a quick taster of how you can actually do this.
 
 ### Example 1: Linking census data with turtles using CSV extension (10min)
 - Go through at your own pace.
@@ -19,7 +20,8 @@ search_exclude: true
 1. If not already opened, open the file `22mar2023_isobenefit_new_forest_hrkwon.nlogo`.
 
 2. Download the census microdata of the case area: [census_2011_new_forest.csv](https://github.com/heeseorain/mini_module_abm/blob/master/data/census_2011_new_forest.csv){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder).
-- Note: I've prepared this csv file for this exercise session based on the 2011 Census microdata. For more information, see [Census 2021 microdata](https://www.ons.gov.uk/census/2011census/2011censusdata/censusmicrodata){:target="_blank"}. If you want, you can download the Microdata Teaching File and explore in your own time.
+- Note: I've prepared this csv file for this exercise session based on the 2011 Census microdata. Note that this csv file contains residents of the New Forest district, which is larger than our case area.
+- For more information, see [Census 2021 microdata](https://www.ons.gov.uk/census/2011census/2011censusdata/censusmicrodata){:target="_blank"}. If you want, you can download the Microdata Teaching File and explore in your own time.
 
 3. Open the file and have a quick look.
 
@@ -161,12 +163,56 @@ search_exclude: true
 8. Click `read_2011_residents_from_csv`.
 - What do you see happening?
 - Right-click on one of the turtles and click `turtle` > `inspect turtle`.
-  - Do you see each of these turtles representing each case number in the census data?
+  - Do you see each of these turtles representing each case number in the census data
+- Save the NetLogo file if you wish to keep the changes that you made.
 
    ![](statics/census6.png)
 
-### Example 1: Questions (5min)
-Q1. These turtles can be coloured linked with their properties.
+### Example 2: Linking NHS disease pravelence data (5min)
+- Go through at your own pace.
+- We will continue to use the Isobenefit model from the previous exercise.
+
+1. Download the point data of [NHS GP surgeries in New Forest](https://github.com/heeseorain/mini_module_abm/blob/master/data/gp_surgery_milford_lymington.zip){:target="_blank"}. Extract the zip file.
+- I've prepared this point file for this exercise session based on the Point of Interest (POI) data and NHS Quality and Outcomes Framework data.
+
+2. For your information, the [Ordinance Survey Point of Interst](https://beta.ordnancesurvey.co.uk/products/points-of-interest){:target="_blank"} data is a very useful resource. 
+- It includes detailed point data including restaurants, doctor's surgeries, pharmacies, fast food and takeway outlets, schools, bus stops...
+- You can download this on Edina Digimap using your UCL login. If you're interested in using GIS data for your research, I recommend exploring this POI data.
+
+   ![](statics/poi1.png)
+   ![](statics/poi2.png)
+
+3. For your information, digital.nhs.uk contains a lot of useful health data. 
+- [Quality and Outcomes Framework](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2021-22){:target="_blank"} gets updated annually and contains very useful information such as prevalence of various diseases by GP practices. 
+- If you're interested in using health data for your research, I recommend exploring this data as well as other data on digital.nhs.uk.
+
+   ![](statics/nhs1.png)
+    
+4. Open your `new_forest.qgz` QGIS file in your working directory.
+- Drag and drop `gp_surgery_milford_lymington.shp` into the `Layers` box.
+- You will see three points.
+- Right-click on `gp_surgery_milford_lymington.shp` > `Open Attribute Table` and have a quick look.
+
+   ![](statics/nhs2.png)
+   
+5. To give an example in this session, I extracted the three GP practices in `New Forest PCN` and in the POI data's attribute table, I entered the `Pravelence (%)` values of obesity by the GP surgery.
+- New Forest PCN is not a dense area so only has three GP practice points in this NHS quality ad outcomes framework. You will see many more GP practice points in denser areas.
+
+   ![](statics/nhs3.png)
+
+6. Since we only have two GP practice points in the NHS quality and outcomes framework in our case area, located very close to each other, so we could just use the average obesity prevalence value of these two points (7.96%). 
+- For example, hypothetically, we could randomly assign `obesity = 1 (yes)` to 7.96% of the turtles in our model.
+  - We could consider census variables such as age and health deprivation  when randomly assigning certain disease types to turtles.
+  - Also, we could make a `monitor` or `plot` for `obesity` and put a rule so that as turtles switch their main mode of transport from car to non-car, we can make this behavioural change affect the obesity metric. The details of this behavioural rules would need to be based on some evidence such as existing theories and empirical data.
+- In larger areas or denser areas with more GP practice points, we can use [Voronoi Polygons](https://www.cadlinecommunity.co.uk/hc/en-us/articles/4404037109009-QGIS-Voronoi-Polygons){:target="_blank"} function in QGIS to make the points into polygons, export it as a raster file, and load on NetLogo with the GIS extension.
+  - For example, this would be very useful for comparing the health metric among different wards/districts.
+  - Below is an example from one of my current projects that uses Greater Manchester as a case study. 
+  
+   ![](statics/nhs4.png)
+
+
+### Questions (5min)
+Q1. Going back to our NetLogo file, these turtles that we loaded can be coloured linked with their properties.
 - For example, If one wants to look at 15-minute city/20-minute neighbourhood theme and mode swith away from car use,
   -  We can link with a census variable, by main mode of transport: non-car (green) and car (blue)).
   - Or can calculate within NetLogo, whether or not a turtle is within 1km of green cluster and centrality: yes (green), no (blue).
@@ -178,3 +224,5 @@ Q2. I have only included the census variables that I thought would have relevanc
   - If so, which of these variables especially interest you?
 
 Q3. What kind of opportunities do you think looking at the census data an an individual level create, compared to looking at them at an aggregate level?
+
+Q4. What kind of opportunities do you think using GIS and CSV extensions in NetLogo can present for researchers and practitioners in urban planning and development?
