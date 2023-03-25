@@ -75,16 +75,22 @@ to read_2011_residents_from_csv
       set workplace_2011 item 26 data
     ]
   ]
+    ask turtles [move-to one-of patches with [wat_tra_par_gre_lo_me_hi_cen = 5 
+      or wat_tra_par_gre_lo_me_hi_cen = 6 or wat_tra_par_gre_lo_me_hi_cen = 7]] ;; to residential patches.
+file-close ; make sure to close the file
 end
 ```
 
-   ![](statics/census1.png)
+   ![](statics/census2.png)
 
 6. CLick `Check`. You will see an error message `Nothing named CASENO_2011 has been defined.`
 - We're trying to set these census variables as turtle properties.
 - When you scroll to the top of the `Code` tab, you will see `patches-own`. These are the attributes of the land parcels in this model. We have set some of these linking with the raster files earlier.
 - We can do the same for turtles with `turtles-own`.
-- Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
+
+   ![](statics/census3.png)
+
+7. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
 
 ```
 ; ##################################################################
@@ -145,8 +151,9 @@ turtles-own[
 - But to show you how we make buttons in the `Interface`, let's make a button.
 - First, let's move the two `go` buttons up to make room.
   - Right-click > `Select` > Drag and drop.
-- Next, 
+- Next, right-click on the black space > `Button` and write `read_2011_residents_from_csv`.
 
+8. Click `read_2011_residents_from_csv`.
 
 ### Example 1: Questions (5min)
 8.
