@@ -77,8 +77,8 @@ search_exclude: true
   ]
     ask turtles [move-to one-of patches with [wat_tra_par_gre_lo_me_hi_cen = 5 
       or wat_tra_par_gre_lo_me_hi_cen = 6 or wat_tra_par_gre_lo_me_hi_cen = 7]] ;; to residential patches.
-file-close ; make sure to close the file
-end
+   file-close ; make sure to close the file
+   end
    ```
 
    ![](statics/census2.png)
@@ -93,10 +93,10 @@ end
 7. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
 
    ```
-; ##################################################################
-; Turtle attributes
-; ##################################################################
-turtles-own[
+   ; ##################################################################
+   ; Turtle attributes
+   ; ##################################################################
+   turtles-own[
   caseno_2011 ;; Census case no.
   prev_address_2011 ;; add1yr. Address one year ago. 1=same, 2=other address within LA, 3=other address outside LA, within UK
        ;; 4=other address outside UK
@@ -143,7 +143,7 @@ turtles-own[
        ;; 4=lives outside LA/UA/LGD area of workplace but within UK, 5=workplace outside UK
   workplace_2011 ;; wrkplaceew. 1=no fixed place. 2=work mainly at/from home, 3=inside LA area of residence, 4=outsidce LA area but inside GB
        ;; 5=Northern Ireland, 6=outside UK
-]
+   ]
    ```
 
 7. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
