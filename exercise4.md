@@ -44,7 +44,7 @@ search_exclude: true
        create-turtles 1 [
          set xcor     random-xcor
          set ycor     random-ycor
-         set size     3
+         set size     1
          set shape    "circle"
          set caseno_2011           item 0 data  ;; 0=column A in excel. 1=column B. ... 29=colum AE.
          set prev_address_2011     item 1 data
@@ -82,7 +82,8 @@ search_exclude: true
    ```
 
    ![](statics/census2.png)
-
+   (Note: set size as `1` rather than `3`.)
+   
 6. CLick `Check`. You will see an error message `Nothing named CASENO_2011 has been defined.`
 - We're trying to set these census variables as turtle properties.
 - When you scroll to the top of the `Code` tab, you will see `patches-own`. These are the attributes of the land parcels in this model. We have set some of these linking with the raster files earlier.
@@ -145,6 +146,8 @@ search_exclude: true
           ;; 5=Northern Ireland, 6=outside UK
    ]
    ```
+   
+   ![](statics/census4.png)
 
 7. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
 - We can simply put this in the `Command Center` and press `Enter`.
@@ -153,8 +156,25 @@ search_exclude: true
   - Right-click > `Select` > Drag and drop.
 - Next, right-click on the black space > `Button` and write `read_2011_residents_from_csv`.
 
+   ![](statics/census5.png)
+
 8. Click `read_2011_residents_from_csv`.
+- What do you see happening?
+- Right-click on one of the turtles and click `turtle` > `inspect turtle`.
+  - Do you see each of these turtles representing each case number in the census data?
+
+   ![](statics/census6.png)
 
 ### Example 1: Questions (5min)
-8.
-https://www.ons.gov.uk/file?uri=/census/2011census/2011censusdata/censusmicrodata/safeguardedmicrodata/codebooksafeguardedgroupedla_tcm77-398552.xls
+Q1. These turtles can be coloured linked with their properties.
+- For example, If one wants to look at 15-minute city/20-minute neighbourhood theme and mode swith away from car use,
+  -  We can link with a census variable, by main mode of transport: non-car (green) and car (blue)).
+  - Or can calculate within NetLogo, whether or not a turtle is within 1km of green cluster and centrality: yes (green), no (blue).
+  - Naturally, we could put these as `monitor` or `plot` in the `Interface`.
+- What kind of metric/s would be your personal interest?
+
+Q2. I have only included the census variables that I thought would have relevance for car to non-car mode switch behaviour. You can see the whole list of variables in the census data in the [Codebook](https://www.ons.gov.uk/file?uri=/census/2011census/2011censusdata/censusmicrodata/safeguardedmicrodata/codebooksafeguardedgroupedla_tcm77-398552.xls){:target="_blank"}.
+- Is there specific type/s of behaviour of citizens that you are interested in for research?
+  - If so, which of these variables especially interest you?
+
+Q3. What kind of opportunities do you think looking at the census data an an individual level create, compared to looking at them at an aggregate level?
