@@ -86,23 +86,21 @@ search_exclude: true
 
    ![](statics/census2.png)
 
-7. As our code will attach each row of the `census_2011_new_forest.csv` file as a turtle, we need to remove the first row that contains variable names.
+6. As our code will attach each row of the `census_2011_new_forest.csv` file as a turtle, we need to remove the first row that contains variable names.
 - `Save as` the `census_2011_new_forest.csv` file into `3624_turtles_2011_new_forest.csv`.
 - Delete the first row and `Save`.
 - Put the `3624_turtles_2011_new_forest.csv` file inside the `data` folder of your `22mar2023_isobenefit_new_forest_hrkwon` folder in your working directory.
 
    ![](statics/census2-1.png)
 
-8. Let's go back to the `Code` tab of the `22mar2023_isobenefit_new_forest_hrkwon.nlogo` model. Click `Check`. 
-
-You will see an error message `Nothing named CASENO_2011 has been defined.`
+7. Let's go back to the `Code` tab of the `22mar2023_isobenefit_new_forest_hrkwon.nlogo` model. Click `Check`. You will see an error message `Nothing named CASENO_2011 has been defined.`
 - We're trying to set these census variables as turtle properties.
 - When you scroll to the top of the `Code` tab, you will see `patches-own`. These are the attributes of the land parcels in this model. We have set some of these linking with the raster files earlier.
 - We can do the same for turtles with `turtles-own`.
 
    ![](statics/census3.png)
 
-9. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
+8. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
 
    ```
    ; ##################################################################
