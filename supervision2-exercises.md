@@ -1,14 +1,3 @@
----
-title: "Supervision 2"
-nav_order: 5
-nav_exclude: false
-search_exclude: true
----
-
-<button class="btn js-toggle-dark-mode">Dark color scheme</button>
-
-<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
-
 # Supervision 2 (27-28 February, 2020)
 ### Teaching materials are prepared by Heeseo Rain Kwon (hk394@cam.ac.uk).
 
