@@ -1,10 +1,3 @@
----
-title: "Assignment 2 Answers&Instruction"
-nav_exclude: False
-nav_order: 7
-search_exclude: true
----
-
 # Assignment for Supervision 2 - Answers
 
 ### Teaching materials are prepared by Heeseo Rain Kwon (hk394@cam.ac.uk).
