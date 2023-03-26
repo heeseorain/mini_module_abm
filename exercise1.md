@@ -87,6 +87,7 @@ Rules can be summarised as the four points below.
 ### Q1-1. Try writing these rules into NetLogo code using [if](http://ccl.northwestern.edu/netlogo/docs/dict/if.html){:target="_blank"} statement: `if boolean [ commands ]`.
 - Use the patch property `live-neighbors` and the commands `cell-birth` and `cell-death`.
 - One line of code for the first three points. (You don't need to worry about the 4th point because it doesn't change the cell state.)
+- If you want help, scroll down to the bottom of this page and you will find the answer.
 
 ### Q1-2. Explain how these three lines of code can be shortened to line 43-46 written in the model using the [ifelse](http://ccl.northwestern.edu/netlogo/docs/dict/ifelse.html){:target="_blank"}.
 
@@ -145,3 +146,8 @@ ask n-of 1000 patches
 - How does including grass in the model affect the sheep and wolf population?
 
 If you are interested, there are more exercises on Wolf Sheep Predation in [[Extra Exercise]](./exercise4.md){:target="_blank"}.
+
+## Example 1: Game of Life Questions - Model answer for Q1-1
+1. `if live-neighbors = 3 [ cell-birth ]`
+2. `if live-neighbors < 2 [ cell-death ]`
+3. `if live-neighbors > 3 [ cell-death ]`
