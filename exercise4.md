@@ -32,6 +32,7 @@ search_exclude: true
 
 5. Insert the following code at the very bottom.
 - Have a look at the code. What do you think we're trying to do here?
+- (Note: set size as `1` rather than `3`.)
 
    ```
    to read_2011_residents_from_csv
@@ -84,7 +85,6 @@ search_exclude: true
    ```
 
    ![](statics/census2.png)
-   (Note: set size as `1` rather than `3`.)
 
 7. As our code will attach each row of the `census_2011_new_forest.csv` file as a turtle, we need to remove the first row that contains variable names.
 - `Save as` the `census_2011_new_forest.csv` file into `3624_turtles_2011_new_forest.csv`.
