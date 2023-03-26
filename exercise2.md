@@ -32,7 +32,7 @@ search_exclude: true
 - `nodes` are the breeds of turtles in this model. (For more information: [breed](https://ccl.northwestern.edu/netlogo/bind/primitive/breed.html){:target="_blank"}.
 - These nodes own three properties: `state`, `orig-state` and `spoken-state`.
   - Right-click on the node > `node` > `inspect node` black and white nodes and check the property `state`. 
-  - You will see that white nodes have state 0 and black nodes have state 1. 
+  - You will see that black nodes have state 0 and white nodes have state 1. 
   
    ![](statics/language2.png)
    ![](statics/language3.png)
