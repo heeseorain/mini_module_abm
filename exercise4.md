@@ -158,16 +158,15 @@ search_exclude: true
    
    ![](statics/census4.png)
 
-10. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
+9. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
 - We can simply put this in the `Command Center` and press `Enter`.
 - But to show you how we make buttons in the `Interface`, let's make a button.
-- First, let's move the two `go` buttons up to make room.
-  - Right-click > `Select` > Drag and drop.
+- First, let's move the two `go` buttons up to make room. Right-click > `Select` > Drag and drop.
 - Next, right-click on the black space > `Button` and write `read_2011_residents_from_csv`.
 
    ![](statics/census5.png)
 
-11. Click `read_2011_residents_from_csv`.
+10. Click `read_2011_residents_from_csv`.
 - What do you see happening?
 - Right-click on one of the turtles and click `turtle` > `inspect turtle`.
   - Do you see each of these turtles representing each case number in the census data
