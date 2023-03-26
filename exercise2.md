@@ -39,8 +39,8 @@ search_exclude: true
 
 5. With the original parameter setting, click `go`.
 - What happens?
-- Right-click anywhere on the plot and click `Edit`.
-  - Do you see how you right command to plot an important metric in your model? (e.g. `plot mean [state] of nodes)
+- Right-click anywhere on the plot box `Mean state of language users in the network` in the bottom-left of the `Interface` and click `Edit`.
+  - Do you see how you write command to plot an important metric in your model? (e.g. `plot mean [state] of nodes`)
 
    ![](statics/language4.png)
    ![](statics/language5.png)
