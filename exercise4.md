@@ -85,15 +85,24 @@ search_exclude: true
 
    ![](statics/census2.png)
    (Note: set size as `1` rather than `3`.)
-   
-6. CLick `Check`. You will see an error message `Nothing named CASENO_2011 has been defined.`
+
+7. As our code will attach each row of the `census_2011_new_forest.csv` file as a turtle, we need to remove the first row that contains variable names.
+- `Save as` the `census_2011_new_forest.csv` file into `3624_turtles_2011_new_forest.csv`.
+- Delete the first row and `Save`.
+- Put the `3624_turtles_2011_new_forest.csv` file inside the `data` folder of your `22mar2023_isobenefit_new_forest_hrkwon` folder in your working directory.
+
+   ![](statics/census2-1.png)
+
+8. Let's go back to the `Code` tab of the `22mar2023_isobenefit_new_forest_hrkwon.nlogo` model. Click `Check`. 
+
+You will see an error message `Nothing named CASENO_2011 has been defined.`
 - We're trying to set these census variables as turtle properties.
 - When you scroll to the top of the `Code` tab, you will see `patches-own`. These are the attributes of the land parcels in this model. We have set some of these linking with the raster files earlier.
 - We can do the same for turtles with `turtles-own`.
 
    ![](statics/census3.png)
 
-7. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
+9. Insert the following code below the `patches-own` section. For your reference, I have put the information of what the values under each variable indicate. 
 
    ```
    ; ##################################################################
@@ -151,7 +160,7 @@ search_exclude: true
    
    ![](statics/census4.png)
 
-7. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
+10. Click `Check`. Seems like we are ready to run the `read_2011_residents_from_csv` command.
 - We can simply put this in the `Command Center` and press `Enter`.
 - But to show you how we make buttons in the `Interface`, let's make a button.
 - First, let's move the two `go` buttons up to make room.
@@ -160,7 +169,7 @@ search_exclude: true
 
    ![](statics/census5.png)
 
-8. Click `read_2011_residents_from_csv`.
+11. Click `read_2011_residents_from_csv`.
 - What do you see happening?
 - Right-click on one of the turtles and click `turtle` > `inspect turtle`.
   - Do you see each of these turtles representing each case number in the census data
