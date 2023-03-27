@@ -17,13 +17,13 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 
 |Time|Lecture|Topic|Lecturer|
 |---|---|---|---:|
-|1-1:20pm| Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: Focusing on CA and ABM [[Slides]](./27Mar2023_Lecture2_mini_module_ABM_HRKwon)|Dr Heeseo Rain Kwon| 
+|1-1:20pm| Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: Focusing on CA and ABM [[Slides]](./27Mar2023_Lecture1_mini_module_ABM_HRKwon.pdf)|Dr Heeseo Rain Kwon| 
 |1:20-1:50pm| Software exercise 1|Introduction to NetLogo: Game of life and wolf sheep predation model) [[Exercises]](./exercise1.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
-|2-2:15pm| Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
+|2-2:15pm| Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./27Mar2023_Lecture2_mini_module_ABM_HRKwon.pdf)|Dr Heeseo Rain Kwon|
 |2:15-2:30pm| Software exercise 2|Introduction to NetLogo: Language change model and contact tracing [[Exercises]](./exercise2.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
-|2:40-3pm| Lecture 3|Isobenefit urbanism morphogenesis: Using ABM to simulate future urban growth of 15-minute neighbourhoods [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
+|2:40-3pm| Lecture 3|Isobenefit urbanism morphogenesis: Using ABM to simulate future urban growth of 15-minute neighbourhoods [[Slides]](./27Mar2023_Lecture3_mini_module_ABM_HRKwon.pdf)|Dr Heeseo Rain Kwon|
 |3-3:40pm| Software exercise 3|Using QGIS with NetLogo: Preparing spatial input data on QGIS for an urban growth model loading on NetLogo [[Exercises]](./exercise3.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
-|3:50-4:30pm| Lecture 4|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: Healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
+|3:50-4:30pm| Lecture 4|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: Healthier urban development and healthier travel behaviour [[Slides]](./27Mar2023_Lecture4_mini_module_ABM_HRKwon.pdf)|Dr Heeseo Rain Kwon|
 |4:30-4:50pm| Software exercise 4|Using QGIS and Excel with NetLogo: Linking census data with turtles on NetLogo and using NHS disease prevalence data [[Exercises]](./exercise4.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |4:50-5pm| Wrap-up|Summary of the module learnings [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |5-6pm| Optional: Time for further individual questions and extra software exercises|SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
