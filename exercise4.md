@@ -162,7 +162,7 @@ search_exclude: true
 - We can simply put this in the `Command Center` and press `Enter`.
 - But to show you how we make buttons in the `Interface`, let's make a button.
 - First, let's move the two `go` buttons up to make room. Right-click > `Select` > Drag and drop.
-- Next, right-click on the black space > `Button` and write `read_2011_residents_from_csv`.
+- Next, right-click on the blank space > `Button` and write `read_2011_residents_from_csv`.
 
    ![](statics/census5.png)
 
@@ -206,7 +206,8 @@ search_exclude: true
 
    ![](statics/nhs3.png)
 
-6. Since we only have two GP practice points in the NHS quality and outcomes framework in our case area, located very close to each other, so we could just use the average obesity prevalence value of these two points (7.96%). 
+6. In the interest of time, we will not actually load this NHS data into NetLogo. Instead, I wish to explain what approches can be made to integrate this NHS data into our NetLogo model.
+- Since we only have two GP practice points in the NHS quality and outcomes framework in our case area, located very close to each other, so we could just use the average obesity prevalence value of these two points (7.96%). 
 - For example, hypothetically, we could randomly assign `obesity = 1 (yes)` to 7.96% of the turtles in our model.
   - We could consider census variables such as age and health deprivation  when randomly assigning certain disease types to turtles.
   - Also, we could make a `monitor` or `plot` for `obesity` and put a rule so that as turtles switch their main mode of transport from car to non-car, we can make this behavioural change affect the obesity metric. The details of this behavioural rules would need to be based on some evidence such as existing theories and empirical data.
