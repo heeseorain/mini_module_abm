@@ -33,15 +33,12 @@ The teaching materials are created by Dr Heeseo Rain Kwon.
 
 ### Key readings
 Lecture 1:
-- Kwon, H.R., Silva, E.A. and Scherer, P.M. (forthcoming) Linking Types of Behavior with Theories, Rules and Research Methods for a Cellular Automata-Agent Based Model (CA-ABM): Research Design and Spatial Data Preparation Building on SLEUTH
+- Batty, M. et al. (2012) ‘Smart cities of the future’, European Physical Journal SPecial Topics, 214, pp. 481-518.
 - Clarke, K. C., Hoppen, S. and Gaydos, L. (1997) ‘A self-modifying cellular automaton model of historical urbanization in the San Francisco Bay area’, Environment and Planning B: Planning and Design, 24(2), pp. 247–261. doi: 10.1068/b240247.
 - de Roo, G., & Silva, E. A. (2010). A Planner’s Encounter with Complexity. Surrey, UK; Burlington, VT: Ashgate.
 - Silva, E.A., & Clarke, K. C. (2002). Calibration of the SLEUTH urban growth model for Lisbon and Porto, Portugal. Computers, Environment and Urban Systems, 26(2002), 525–552.
 - Silva, E.A, & Clarke, K. C. (2005). Complexity, Emergence and Cellular Urban Models: Lessons Learned from Applying Sleuth to Two Portuguese Metropolitan Areas. European Planning Studies, 13(1), 93–115.
 - Silva, E.A. (2011). Cellular Automata and Agent Base Models for Urban Studies: From Pixels to Cells to Hexa-dpi’s. In X. Yang (Ed.), Urban Remote Sensing: Monitoring, Synthesis and Modeling in the Urban Environment (pp. 323–345). West Sussex, UK: Wiley-Blackwell.
-- Silva, E.A., Liu, L., Kwon, H. R., Niu, H., & Chen, Y. (2021). What’s new in urban data analytics? In A. Rae & C. Wong (Eds.), Applied Data Analysis for Urban Planning and Management. Sage.
-- Silva, E.A., Liu, L., Kwon, H. R., Niu, H., & Chen, Y. (2020). Hard and Soft Data Integration In Geocomputation: Mixed Methods for Data Collection and Processing in Urban Planning. In S. Geertman & J. Stillwell (Eds.), Handbook on Planning Support Science (Ed.). Edward Elgar Publishers.
-- D’Acci, L. (2019) ‘A new type of cities for liveable futures. Isobenefit Urbanism morphogenesis’, Journal of Environmental Management, 246, pp. 128–140. doi: 10.1016/j.jenvman.2019.05.129.
 
 Lecture 2:
 - Kwon, H.R. and Pain, K. (Forthcoming) Searching for Health and Wellbeing: Commercial Real Estate Actor Encounters with Planning in the Urban Development Decision-making ‘Black Box’, Built Environment Special Issue.
@@ -54,10 +51,22 @@ Lecture 2:
 - Taşan-Kok, T., Atkinson, R., & Martins, M. L. R. (2020). Hybrid contractual landscapes of governance: Generation of fragmented regimes of public accountability through urban regeneration. Environment and Planning C: Politics and Space, 0(0), 1–21
 
 Lecture 3:
+- D’Acci, L. (2019) ‘A new type of cities for liveable futures. Isobenefit Urbanism morphogenesis’, Journal of Environmental Management, 246, pp. 128–140. doi: 10.1016/j.jenvman.2019.05.129.
+- Moreno, C., Allam, Z., Chabaud, D., Gall, C., and Pratlong, F. (2021). Introducing the “15-Minute City”: Sustainability, Resilience and Place Identity in Future Post-Pandemic Cities. Smart Cities, 4(1):93-111.
+
+Lecture 4:
+- de Roo, G. (2018). Ordering Principles in a Dynamic World of Change – On social complexity, transformation and the conditions for balancing purposeful interventions and spontaneous change. Progress in Planning, 125, 1–32. 
+- Gilbert, N. (2019). The Idea of Agent-Based Modeling. In N. Gilbert (Ed.), Agent-Based Models (2nd ed, pp. 1–23). Sage Publications.
+- Izquierdo, L.R., Izquiero, S.S., & Sandholm, W.H. (2019) Agent-Based Evolutionary Game Dynamics.
+- Kwon, H. R. (2020). Refining Behavioural Theories and Rules in Agent-Based Models to Enhance Dynamic Simulation of Urban Change. PhD thesis. University of Cambridge.
 - Kwon, H. R. and Silva, E. A. (2020) ‘Mapping the Landscape of Behavioral Theories: Systematic Literature Review’, Journal of Planning Literature, 35(2), pp. 161–179. doi: 10.1177/0885412219881135.
 - Kwon, H. R. and Silva, E. A. (2023) ‘Matching Behavioral Theories and Rules with Research Methods in Spatial Planning-Related Fields, OnlineFirst. doi: 10.1177/08854122231157708.
-- Kwon, H. R. (2020). Refining Behavioural Theories and Rules in Agent-Based Models to Enhance Dynamic Simulation of Urban Change. PhD thesis. University of Cambridge.
-- Moreno, C., Allam, Z., Chabaud, D., Gall, C., and Pratlong, F. (2021). Introducing the “15-Minute City”: Sustainability, Resilience and Place Identity in Future Post-Pandemic Cities. Smart Cities, 4(1):93-111.
+- Kwon, H.R., Silva, E.A. and Scherer, P.M. (forthcoming) Linking Types of Behavior with Theories, Rules and Research Methods for a Cellular Automata-Agent Based Model (CA-ABM): Research Design and Spatial Data Preparation Building on SLEUTH
+- Liu, Y., Batty, M., Wang, S., & Corcoran, J. (2021). Modelling urban change with cellular automata: Contemporary issues and future research directions. Progress in Human Geography, 45(1), 3–24.
+- Silva, E.A., Liu, L., Kwon, H. R., Niu, H., & Chen, Y. (2021). What’s new in urban data analytics? In A. Rae & C. Wong (Eds.), Applied Data Analysis for Urban Planning and Management. Sage.
+- Silva, E.A., Liu, L., Kwon, H. R., Niu, H., & Chen, Y. (2020). Hard and Soft Data Integration In Geocomputation: Mixed Methods for Data Collection and Processing in Urban Planning. In S. Geertman & J. Stillwell (Eds.), Handbook on Planning Support Science (Ed.). Edward Elgar Publishers.
+
+
 
 ### License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  
