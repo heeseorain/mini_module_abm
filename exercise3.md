@@ -168,7 +168,7 @@ search_exclude: true
 
 23. Now we have two asc files prepared to be loaded on NetLogo!
 
-### Quiz in a group (5min)
+### In a group: Any questions? (5min)
 
 ### Example 2: Loading raster data on NetLogo for an urban growth model and exploring the model (15min)
 - Go through at your own pace.
@@ -270,4 +270,4 @@ search_exclude: true
 
    ![](statics/newforest_nlogo13.png)
 
-### Quiz in a group (5min) 
+### In a group - any questios? (5min) 
