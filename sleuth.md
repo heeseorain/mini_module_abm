@@ -117,31 +117,10 @@ Note: If you don't save as, these temporary files will disappear next time you o
 
 Note: As this supervision is for introducing how QGIS and raster data can be used on NetLogo, we cannot cover many other functions available on QGIS. Please refer to [QGIS Training Manual](https://docs.qgis.org/2.8/en/docs/training_manual/create_vector_data/index.html){:target="_blank"} for more information.
 
-## Introducing NetLogo (10min)
-
-### Setup work environment for NetLogo
-1. Continue using `rm03_YourCRSid_sup2` as your working directory.
-2. Launch NetLogo. The interface will be explained along with exercises. Note: You can refer to [NetLogo User Manual (6.1.1)](https://ccl.northwestern.edu/netlogo/docs/){:target="_blank"} for more detailed information.
-3. In `File` > `Models Library`, you can find a collection of sample models to explore. There are many sample models available on the User Community Models web page.
-
-### Exercise 1: Wolf Sheep Predation
-1. Open `Wolf Sheep Predation` from `Models Library` under `Biology` folder.
-
-![](statics/Sup2_wolfsheep1.PNG)
-
-2. Click `setup` > `go` to start the simulation, and click `go` agin to stop the simulation.
-3. Try running the model with following changes and explain what happens:
-- Change the `model-version` to `sheep-wolves-grass`. Sheep and wolves are the moving agents (turtles in NetLogo), and grass form a grid of stationary agents (patches).
-- Decrese wolf poplulation.
-- What other sliders/switches can you adjust to help out the sheep population?
-- Can you find any parameters that generate a stable ecosystem?
-
-![](statics/Sup2_wolfsheep2.PNG)
-
 ## Running the SLEUTH Urban Growth Model on NetLogo using the raster data produced in QGIS (30min)
 
 ### Setting the work environment
-1. Download `ZIP` of the partial reimplementation of SLEUTH urban growth model on NetLogo and save it at your prefered directory on your disk (e.g. `rm03_YourCRSid_sup2`). : [Urban Growth Model](https://github.com/YangZhouCSS/Urban_Growth_Model){:target="_blank"}.
+1. Download `ZIP` of the partial reimplementation of SLEUTH urban growth model on NetLogo and save it at your prefered directory on your disk. : [Urban Growth Model](https://github.com/YangZhouCSS/Urban_Growth_Model){:target="_blank"}.
 2. Unzip `Urban_Growth_Model-master.zip` and further unzip `urban_growth_model.zip`. In the `urban_growth_model` > `urban model` folder, open `Urbanization.nlogo`. 
 3. Click `setup` > `go` to try out. Inside `urban model` folder, open `data` folder, and you will see the asc files of Santa Fe, New Mexico. Copy-paste the five asc raster files that we created for Sejong: `Slope_2014.asc`, `Urban_2018.asc`, `Exclusion_2014.asc`, `Road_2018.asc` and `Boundary.asc`.
 4. `File` > `Save As` the netlogo file to `Urbanization_sejong.nlogo`. We will make changes to the code to suit our Sejong data. 
@@ -231,7 +210,6 @@ Note: As this supervision is for introducing how QGIS and raster data can be use
 
 ## Closing
 
-10. In a short period of time, you have been introduced to the concept of NetLogo, how to load your own raster data into an existing model that uses the GIS extension, as well as making changes to the code. If you are more interested, there are many more resources available on the [NetLogo website](https://ccl.northwestern.edu/netlogo/){:target="_blank"}, for example, in `Help`, `Resources` and tabs under `Models` and `User Manuals`. Please feel free to reach out to Rain (hk394@cam.ac.uk) for any specific advise!
-11. Also, there is an assignment [[Assignment]](supervision2-assignment.md) which will allow you to explore more of the codes on NetLogo using the Game of Life model. Thanks for your concentration!
+10. In a short period of time, you have been introduced to the concept of NetLogo, how to load your own raster data into an existing model that uses the GIS extension, as well as making changes to the code. If you are more interested, there are many more resources available on the [NetLogo website](https://ccl.northwestern.edu/netlogo/){:target="_blank"}, for example, in `Help`, `Resources` and tabs under `Models` and `User Manuals`. Please feel free to reach out to Dr Heeseo Rain Kwon (heeseo.kwon.10@ucl.ac.uk) for any specific advise!
 
 ### Teaching materials are prepared by Heeseo Rain Kwon (hk394@cam.ac.uk).
