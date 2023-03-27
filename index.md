@@ -17,7 +17,7 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 
 |Time|Lecture|Topic|Lecturer|
 |---|---|---|---:|
-|1-1:20pm| Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: Focusing on CA and ABM [[Slides]](./lecture1.pdf)|Dr Heeseo Rain Kwon| 
+|1-1:20pm| Lecture 1|Complex systems theory and behavioural modelling used in urban planning and development: Focusing on CA and ABM [[Slides]](./27Mar2023_Lecture2_mini_module_ABM_HRKwon)|Dr Heeseo Rain Kwon| 
 |1:20-1:50pm| Software exercise 1|Introduction to NetLogo: Game of life and wolf sheep predation model) [[Exercises]](./exercise1.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)| 
 |2-2:15pm| Lecture 2|Using actor-network theory (ANT) and ABM to conceptualise pro-health urban development decision-making system [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |2:15-2:30pm| Software exercise 2|Introduction to NetLogo: Language change model and contact tracing [[Exercises]](./exercise2.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
