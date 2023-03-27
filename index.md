@@ -24,7 +24,7 @@ Lecturer: Dr Heeseo Rain Kwon; Postgraduate Teaching Assistant: Melissa Barrient
 |2:40-3pm| Lecture 3|Isobenefit urbanism morphogenesis: Using ABM to simulate future urban growth of 15-minute neighbourhoods [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |3-3:40pm| Software exercise 3|Using QGIS with NetLogo: Preparing spatial input data on QGIS for an urban growth model loading on NetLogo [[Exercises]](./exercise3.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |3:50-4:30pm| Lecture 4|Using ABM and behavioural theories for land use-transport interaction (LUTI) simulation: Healthier urban development and healthier travel behaviour [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
-|4:30-4:50pm| Software exercise 4|Using QGIS and Excel with NetLogo: Linking census data with turtles, preparing spatial data of NHS disease prevalence on QGIS and loading on NetLogo [[Exercises]](./exercise4.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
+|4:30-4:50pm| Software exercise 4|Using QGIS and Excel with NetLogo: Linking census data with turtles on NetLogo and using NHS disease prevalence data [[Exercises]](./exercise4.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 |4:50-5pm| Wrap-up|Summary of the module learnings [[Slides]](./___.pdf)|Dr Heeseo Rain Kwon|
 |5-6pm| Optional: Time for further individual questions and extra software exercises|SLEUTH urban growth model [[Exercises]](./___.md) Various quizes [[Quiz]](___.md)[[Answer]](___.md)|Dr Heeseo Rain Kwon (PGTA: Melissa Barrientos)|
 
