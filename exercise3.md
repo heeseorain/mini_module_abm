@@ -173,7 +173,7 @@ search_exclude: true
 ### Example 2: Loading raster data on NetLogo for an urban growth model and exploring the model (15min)
 - Go through at your own pace.
 
-1. Download the NetLogo file of the Isobenefit Urbanism model reimplemented by Dr Kwon: [22mar2023_isobenefit_new_forest_hrkwon.zip](https://github.com/heeseorain/mini_module_abm/blob/master/data/22mar2023_isobenefit_new_forest_hrkwon.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
+1. Download the NetLogo file of the Isobenefit Urbanism model reimplemented by Dr Kwon: [22mar2023_isobenefit_new_forest_hrkwon.zip](https://github.com/heeseorain/mini_module_abm_data/blob/master/22mar2023_isobenefit_new_forest_hrkwon.zip){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder). Extract the zip file.
 - This is a simplified version of the current model in development prepared for this mini-module. Please use it for your learning for this class. Please do not distribute. If you wish to cite this model, please ask Dr Kwon how to do so (heeseo.kwon.10@ucl.ac.uk).
 
 2. Open the file `22mar2023_isobenefit_new_forest_hrkwon.nlogo`.
