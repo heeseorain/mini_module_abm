@@ -19,7 +19,7 @@ search_exclude: true
 
 1. If not already opened, open the file `22mar2023_isobenefit_new_forest_hrkwon.nlogo`.
 
-2. Download the census microdata of the case area: [census_2011_new_forest.csv](https://github.com/heeseorain/mini_module_abm/blob/master/data/census_2011_new_forest.csv){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder).
+2. Download the census microdata of the case area: [census_2011_new_forest.csv](https://github.com/heeseorain/mini_module_abm_data/blob/master/census_2011_new_forest.csv){:target="_blank"} and save it in your working directory (e.g. your "mini_module_abm" folder).
 - Note: I've prepared this csv file for this exercise session based on the 2011 Census microdata. Note that this csv file contains residents of the New Forest district, which is larger than our case area.
 - For more information, see [Census 2021 microdata](https://www.ons.gov.uk/census/2011census/2011censusdata/censusmicrodata){:target="_blank"}. If you want, you can download the Microdata Teaching File and explore in your own time.
 
@@ -178,7 +178,7 @@ search_exclude: true
 - Go through at your own pace.
 - We will continue to use the Isobenefit model from the previous exercise.
 
-1. Download the point data of [NHS GP surgeries in New Forest](https://github.com/heeseorain/mini_module_abm/blob/master/data/gp_surgery_milford_lymington.zip){:target="_blank"}. Extract the zip file.
+1. Download the point data of [gp_surgery_milford_lymington.zip](https://github.com/heeseorain/mini_module_abm_data/blob/master/gp_surgery_milford_lymington.zip){:target="_blank"}. Extract the zip file.
 - I've prepared this point file for this exercise session based on the Point of Interest (POI) data and NHS Quality and Outcomes Framework data.
 
 2. For your information, the [Ordinance Survey Point of Interst](https://beta.ordnancesurvey.co.uk/products/points-of-interest){:target="_blank"} data is a very useful resource. 
