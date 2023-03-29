@@ -270,4 +270,4 @@ search_exclude: true
 
    ![](statics/newforest_nlogo13.png)
 
-### In a group - any questios? (5min) 
+### In a group - any questions? (5min) 
