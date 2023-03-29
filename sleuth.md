@@ -183,7 +183,7 @@ Note: As this supervision is for introducing how QGIS and raster data can be use
 26. Add in line 279 `to-report tenpercent_urban`
 27. Add in line 280 `report (round (count patches with [urban = 1] * 0.10))`
 28. Add in line 281 `end`. This is to define the value `tenpercent_urban` introduced earlier.
-29. Click `Check` bottom next to `Find`. (Note: If an error message comes up for some reason, click `Dismiss` and try again twice. On the third go, the map will be loaded fine. If it still occurs, it might be due to typo, etc. Let one of the supervisors know, and in the interest of time, download the completed file [Urbanization_sejong.nlogo](data/Urbanization_sejong.nlogo){:target="_blank"} so that we can carry on. You can either put this file in the same working directory, or you can copy-paste this file's code to the NetLogo file that you have been working on.
+29. Click `Check` bottom next to `Find`. (Note: If an error message comes up for some reason, click `Dismiss` and try again twice. On the third go, the map will be loaded fine. If it still occurs, it might be due to typo, etc. Let one of the supervisors know, and in the interest of time, download the completed file [Urbanization_sejong.nlogo](https://github.com/heeseorain/mini_module_abm_data/blob/main/Urbanization_sejong.nlogo){:target="_blank"} so that we can carry on. You can either put this file in the same working directory, or you can copy-paste this file's code to the NetLogo file that you have been working on.
 
 ![](statics/Sup2_sleuth4_4.PNG)
 
